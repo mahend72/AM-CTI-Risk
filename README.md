@@ -1,5 +1,4 @@
 <!-- markdownlint-disable MD033 MD041 -->
-<div align="center">
 
 # AM-CTI-Risk
 
@@ -13,7 +12,6 @@ Additive Manufacturing (AM) systems.
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 [![Tests](https://github.com/mahend72/AM-CTI-Risk/actions/workflows/tests.yml/badge.svg)](https://github.com/mahend72/AM-CTI-Risk/actions/workflows/tests.yml)
 
-</div>
 
 ---
 
