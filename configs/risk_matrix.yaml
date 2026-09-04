@@ -1,0 +1,37 @@
+# Final qualitative risk matrix.
+#
+# Reproduces Code/risk_severity.py.txt exactly. See docs/METHODOLOGY.md
+# "Final risk classification" for the call convention: the legacy function
+# signature is risk_severity(level, severity), called as
+# risk_severity(likelihood_level, impact_level) everywhere in the legacy
+# code. This file names the axes unambiguously; risk/risk_matrix.py maps
+# them onto the same legacy call convention internally.
+#
+# Combinations not listed here resolve to "Unknown" (18 of 25 combinations
+# are explicit in the legacy code; the remaining 7 fall through to the
+# legacy function's final `else` branch). This is deliberate legacy
+# behaviour, not a gap to be filled in.
+
+default_label: "Unknown"
+
+# rows = impact_level (0-4), columns = likelihood_level (0-4)
+matrix:
+  "4,4": "Critical"
+  "4,3": "High"
+  "4,2": "High"
+  "3,3": "High"
+  "3,4": "High"
+  "2,4": "High"
+  "4,1": "Moderate"
+  "2,2": "Moderate"
+  "2,3": "Moderate"
+  "1,4": "Moderate"
+  "3,2": "Moderate"
+  "0,4": "Low"
+  "1,3": "Low"
+  "1,1": "Low"
+  "1,2": "Low"
+  "2,1": "Low"
+  "3,1": "Low"
+  "4,0": "Low"
+# key format: "<impact_level>,<likelihood_level>"

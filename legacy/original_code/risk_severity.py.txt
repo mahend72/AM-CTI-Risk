@@ -1,0 +1,43 @@
+#find risk severity
+def risk_severity(level, severity):
+  if level == 4 and severity == 4:
+    risk_level = "Critical"
+    return risk_level
+  if level == 4 and severity == 3:
+    risk_level = "High"
+    return risk_level
+  if level == 4 and severity == 2:
+    risk_level = "High"
+    return risk_level
+  if level == 3 and severity == 3:
+    risk_level = "High"
+    return risk_level
+  if level == 3 and severity == 4:
+    risk_level = "High"
+    return risk_level
+  if level == 2 and severity == 4:
+    risk_level = "High"
+    return risk_level
+  if level == 4 and severity == 1:
+    risk_level = "Moderate"
+    return risk_level
+  if (level == 2 and (severity == 2 or severity == 3 )):
+    risk_level = "Moderate"
+    return risk_level
+  if (level == 1 and severity == 4):
+    risk_level = "Moderate"
+    return risk_level
+  if level == 3 and severity == 2:
+    risk_level = "Moderate"
+    return risk_level
+  if (level == 0 and severity == 4) or (level == 1 and (severity == 3 or severity == 1 or severity == 2 ))or ((level == 2 or level == 3)  and severity == 1) or (level == 4 and severity == 0):
+    risk_level = "Low"
+    return risk_level
+  else:
+    risk_level = "Unknown"        
+    return risk_level
+    
+level = 2
+severity = 0
+
+print("risk:", risk_severity(level, severity))

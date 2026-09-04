@@ -1,0 +1,96 @@
+#intrusion set to attack pattern
+
+import json
+import time
+from datetime import datetime
+
+# load the JSON object from a file or API response
+with open('ics-attack.json') as f:
+    data = json.load(f)
+count = 0
+results = []
+
+# extract the name, description, tactics and external references of each object in the bundle
+for obj1 in data['objects']:
+    if obj1['type'] == 'intrusion-set':
+        res = {}
+        res['source_id'] = obj1['id']
+        
+        created_date = datetime.fromisoformat(obj1['created'].replace('Z', '+00:00'))
+        #res['created'] = int(created_date.timestamp())
+        res['created'] = obj1['created']
+        mod_date = datetime.fromisoformat(obj1['modified'].replace('Z', '+00:00'))
+        #res['modified'] = int(mod_date.timestamp())
+        res['modified'] = obj1['modified']
+        #res['current_time']=time.time()
+
+        mitigations = []
+        for relobj in data['objects']:
+            if relobj['type'] == "relationship":
+                if relobj['source_ref'] == obj1['id']:
+                    for obj2 in data['objects']:
+                        if obj2['type'] == 'attack-pattern':
+                            if relobj['target_ref'] == obj2['id']:
+                                mit = {}
+                                mit['relation_id']=relobj['id']
+                                mit['target_id'] = obj2['id']
+                                mit['technique_name'] = obj2['name']
+                                
+                                for ref2 in obj2['external_references']:
+                                    if ref2['source_name'] == 'mitre-attack':
+                                        mit['technique_code'] = ref2['external_id']
+                                        mit['base_score']= find_severity(data1,ref2['external_id'])[0]
+                                        mit['severity']= find_severity(data1,ref2['external_id'])[1]
+                                        mit['frequency']=len(obj2['external_references'])
+                                        break
+                                mitigations.append(mit)
+
+                                rel_create = datetime.fromisoformat(relobj['created'].replace('Z', '+00:00'))
+                                #mit['rel_created'] = int(rel_create.timestamp())
+                                mit['rel_created'] = obj2['created']
+                                rel_mod = datetime.fromisoformat(relobj['modified'].replace('Z', '+00:00'))
+                                #mit['rel_modified'] = int(rel_mod.timestamp())
+                                mit['rel_modified'] = obj2['modified']
+        res['uses'] = mitigations
+        
+        for ref in obj1['external_references']:
+            if ref['source_name'] == 'mitre-attack':
+                res['attacker_code'] = ref['external_id']
+                break
+        res['attacker_name'] = obj1["name"]
+
+        key1 = 'base_score'
+        values = [obj[key1] for obj in mitigations]
+        impact_score=average(values)
+
+        res['external_references']=len(obj1['external_references'])
+
+        res['impact_score']=impact_score
+        severity = impact_level(impact_score)
+
+        key0 = 'frequency'
+        values = [obj[key0] for obj in mitigations]
+        if values:
+          avg_val = sum(values)/len(values)
+        else:
+          avg_val = 0
+        
+        frequency = len(obj1['external_references'])*(avg_val+1)
+        #res['frequency(2)']=frequency
+
+        like=(time.time()-int(mod_date.timestamp()))/86400/7
+
+        #res['likelihood_score']= like
+
+        res['impact_level']= severity[1]
+        res['timeliness']= find_timeliness(like)
+        res['frequency'] = find_frequency(frequency)
+        likelihood = find_likelihood(find_timeliness(like)*find_frequency(frequency))
+
+        res['likelihood'] = likelihood[1]
+        
+        res['risk_level'] = risk_severity(likelihood[0],severity[0])
+        results.append(res)
+
+with open('intrusion_set.json', 'w') as f:
+    json.dump(results, f, indent=4)

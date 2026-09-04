@@ -1,0 +1,40 @@
+# Assurance-layer settings. Nothing in this file affects the numerical risk
+# engine (severity/frequency/likelihood/timeliness/impact/risk_level) - it
+# only controls what supporting evidence, provenance, and metadata a run
+# produces alongside the (unchanged) risk results.
+
+provenance:
+  enabled: true
+  include_git_commit: true
+  include_input_hash: true
+  include_config_hash: true
+
+warnings:
+  enabled: true
+  # Surface latent legacy defects (see docs/LEGACY_BEHAVIOUR.md) as
+  # WARNING-level evidence entries when they are actually encountered,
+  # even though they do not fire against the current data/raw/ics-attack.json.
+  flag_missing_technique_reference: true   # D-5
+  flag_malformed_technique_ids: true       # D-2
+
+metadata:
+  enabled: true
+  output_path: "results/metadata/run_metadata.json"
+
+evidence:
+  enabled: true
+  include_raw_relationship_ids: true
+
+mitigations:
+  # Best-effort cross-reference from a malware/intrusion-set assessment to
+  # course-of-action entries that mitigate at least one shared technique.
+  # This is a presentational join for assurance context only - it is never
+  # fed back into severity/frequency/likelihood/impact/risk_level.
+  enabled: true
+
+# Future AI security/assurance layer. See docs/AI_ASSURANCE_EXTENSION.md.
+# This section exists so the schema is visible now; the layer performs no
+# scoring and is not read by the cyber-risk engine.
+ai_assurance:
+  enabled: false
+  affects_risk_score: false

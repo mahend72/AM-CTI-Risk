@@ -1,0 +1,16 @@
+#find likelihood level
+def find_timeliness(like):
+    if like <=20:
+      severity = 4
+    if like <=35 and like >20:
+      severity = 3
+    if like <=50 and like >35:
+      severity = 2
+    if like <=60 and like >50:
+      severity = 1
+    if like >=60:
+      severity = 0
+    return severity
+like = 32
+
+print(find_timeliness(like))

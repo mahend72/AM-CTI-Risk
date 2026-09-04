@@ -1,0 +1,23 @@
+def find_likelihood(value):
+    if value >=11:
+        level_0 = 4
+        level_1 = "Critical"
+        #return level
+    if value <11 and value >=7:
+        level_0 = 3
+        level_1 = "High"
+        #return level
+    if value <7 and value >=3:
+        level_0 = 2
+        level_1 = "Moderate"
+    if value <3 and value >=1:
+        level_0 = 1
+        level_1 = "Low"
+    if value < 1:
+        level_0 = 0
+        level_1 = "Unknown"
+    return level_0,level_1
+
+value = 3
+print(find_likelihood(value))
+

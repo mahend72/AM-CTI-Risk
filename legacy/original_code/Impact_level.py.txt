@@ -1,0 +1,18 @@
+#find impact level
+def impact_level(max_val):
+    if max_val >=120:
+      level_0 = 4
+      level_1 = "Very Critical"
+    if max_val <120 and max_val >80:
+      level_0 = 3
+      level_1 = "Critical"
+    if max_val <80 and max_val >50:
+      level_0 = 2
+      level_1 = "Hazardous"
+    if max_val <50 and max_val >10:
+      level_0 = 1
+      level_1 = "Certain Hazard"
+    if max_val < 10:
+      level_0 = 0 
+      level_1 = "Not Hazard"
+    return level_0, level_1

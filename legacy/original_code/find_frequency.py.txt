@@ -1,0 +1,16 @@
+def find_frequency(frequency):
+    if frequency >=60:
+      level = 4
+    if frequency <60 and frequency >=40:
+      level = 3
+    if frequency <40 and frequency >=20:
+      level = 2
+    if frequency <20 and frequency >=2:
+      level = 1
+    if frequency < 2:
+      level = 0 
+    return level
+
+frequency = 9
+
+print(find_frequency(frequency))

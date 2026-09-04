@@ -1,0 +1,16 @@
+def average(list):
+  non_zero_count = 0
+  sum_non_zero = 0
+  for i in list:
+      if i != 0:
+          non_zero_count += 1
+          sum_non_zero += i
+
+  if non_zero_count != 0:
+    result = sum_non_zero / non_zero_count
+    return result
+  else:
+    return 0
+
+list = [ 0, 0, 0, 0, 0, 0, 0, 0, 0]
+print(average(list))
