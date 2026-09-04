@@ -11,7 +11,7 @@ Additive Manufacturing (AM) systems.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENCE.txt)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
-[![Tests: pytest](https://img.shields.io/badge/tests-pytest-0A9EDC.svg)](tests)
+[![Tests](https://github.com/mahend72/AM-CTI-Risk/actions/workflows/tests.yml/badge.svg)](https://github.com/mahend72/AM-CTI-Risk/actions/workflows/tests.yml)
 
 </div>
 
