@@ -1,0 +1,40 @@
+{
+  "provenance": {
+    "generated_at": "2026-09-04T19:09:49.775258+00:00",
+    "project_version": "1.0.0",
+    "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+    "python_version": "3.13.5",
+    "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+    "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+    "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+    "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+    "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+    "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+  },
+  "stix_object_count": 1008,
+  "stix_object_counts_by_type": {
+    "x-mitre-matrix": 1,
+    "course-of-action": 51,
+    "malware": 27,
+    "x-mitre-tactic": 12,
+    "attack-pattern": 91,
+    "relationship": 755,
+    "x-mitre-data-component": 36,
+    "intrusion-set": 15,
+    "campaign": 1,
+    "x-mitre-data-source": 17,
+    "identity": 1,
+    "marking-definition": 1
+  },
+  "assessed_entity_counts": {
+    "campaign": 1,
+    "course-of-action": 51,
+    "intrusion-set": 15,
+    "malware": 27
+  },
+  "validation_status": {
+    "ERROR": 2,
+    "WARNING": 12,
+    "INFO": 18
+  }
+}

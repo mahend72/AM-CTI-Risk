@@ -1,2 +1,262 @@
-# Threat Impact Visualiser and Risk Assessment System for Additive Manufacturing
-Threat impact/cost visualizer and risk exposure analyzer is a comprehensive Cyber Threat Intelligence (CTI) based proactive approach that involves threat-asset identification, analysis and assessment of threats related to additive manufacturing.
+<!-- markdownlint-disable MD033 MD041 -->
+<div align="center">
+
+# AM-CTI-Risk
+
+**Threat Impact Visualiser and Risk Assessment System for Additive Manufacturing**
+
+A Cyber Threat Intelligence (CTI)-driven pipeline that turns MITRE ATT&CK®
+for ICS data into reproducible, evidence-backed risk assessments for
+Additive Manufacturing (AM) systems.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENCE.txt)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
+[![Tests: pytest](https://img.shields.io/badge/tests-pytest-0A9EDC.svg)](tests)
+
+</div>
+
+---
+
+## Overview
+
+AM-CTI-Risk ingests a STIX 2.0 threat intelligence bundle (MITRE ATT&CK for
+ICS) and produces a structured, auditable risk assessment for every
+malware, intrusion-set, course-of-action, and campaign object it contains.
+It is a ground-up, tested reimplementation of an original research
+prototype: the numerical methodology is preserved exactly (see
+[`docs/METHODOLOGY.md`](docs/METHODOLOGY.md)), while the engineering around
+it — configuration, validation, provenance, reporting, and regression
+testing — has been rebuilt from scratch.
+
+Every score the pipeline produces is:
+
+- **Reproducible** — driven entirely by versioned YAML configuration, not
+  hard-coded constants.
+- **Evidence-backed** — every risk record carries the raw ATT&CK
+  technique-level evidence that produced it.
+- **Provenanced** — every run records its input hash, config hash, and
+  (optionally) git commit, so a result can always be traced back to the
+  exact code and data that generated it.
+- **Regression-tested** against the original prototype's own output
+  (`legacy/original_results/*.json`) to guarantee behavioural equivalence
+  where it is expected, and to make any intentional deviation explicit and
+  documented.
+
+## Key features
+
+- **STIX 2.0 ingestion** of MITRE ATT&CK for ICS bundles, with a data
+  validation pass that flags malformed technique IDs, missing references,
+  and other latent data-quality issues before scoring runs.
+- **Six-factor legacy-equivalent risk engine** — severity, frequency,
+  timeliness, likelihood, impact, and a final qualitative risk rating —
+  implemented as small, independently testable, pure functions
+  (`src/am_assurance/risk/`).
+- **Config-driven scoring** — every threshold, bucket, and lookup matrix
+  lives in [`configs/`](configs), not in code, so the methodology can be
+  audited and adjusted without touching the engine.
+- **Assurance layer** — provenance, warnings, mitigation cross-references,
+  and run metadata are attached to every assessment without ever feeding
+  back into the numeric risk score.
+- **Multi-format reporting** — per-entity-type JSON, a consolidated CSV,
+  and a run summary.
+- **Extension point for AI-enabled AM** — an isolated `ai_assurance`
+  package that cannot influence the cyber-risk engine (enforced by a
+  dedicated isolation test), reserved for future MITRE ATLAS / NIST AI RMF
+  work.
+- **Full regression suite** proving the rebuilt engine reproduces the
+  original prototype's results.
+
+## Pipeline
+
+```
+CTI source (MITRE ATT&CK for ICS, STIX 2.0 bundle)
+   -> entity (malware | intrusion-set | course-of-action | campaign)
+   -> related attack-pattern techniques (1-hop relationship traversal)
+   -> per-technique severity
+   -> per-technique + entity frequency
+   -> aggregation (non-zero mean) -> impact level
+   -> timeliness (time-dependent)
+   -> likelihood (timeliness x frequency)
+   -> final qualitative risk (impact x likelihood risk matrix)
+```
+
+See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for the exact definition,
+thresholds, and provenance of every factor.
+
+## Installation
+
+Requires Python 3.10+.
+
+```bash
+git clone <this-repo>
+cd CTI-based-risk-assessnent-for-AM
+
+python -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
+
+pip install -e ".[dev]"
+```
+
+## Quickstart
+
+Run the pipeline against the bundled MITRE ATT&CK for ICS dataset using the
+default configuration:
+
+```bash
+python scripts/run_assessment.py
+```
+
+This validates `data/raw/ics-attack.json`, scores every supported entity,
+and writes results under `results/`:
+
+```
+results/
+├── assessments/
+│   ├── malware.json
+│   ├── intrusion_set.json
+│   ├── course_of_action.json
+│   ├── campaign.json
+│   └── all_assessments.csv
+├── metadata/
+│   └── run_metadata.json
+└── validation/
+    └── data_validation_report.json
+```
+
+### Common options
+
+```bash
+# Validate the input bundle only, no scoring
+python scripts/run_assessment.py --validate-only
+
+# Restrict to specific entity types
+python scripts/run_assessment.py --entity-type malware --entity-type intrusion-set
+
+# Use custom input data / configuration
+python scripts/run_assessment.py \
+  --input path/to/bundle.json \
+  --config configs/scoring.yaml \
+  --risk-matrix configs/risk_matrix.yaml \
+  --assurance-config configs/assurance.yaml \
+  --output results/
+
+# Compare against the legacy prototype's stored results
+python scripts/run_assessment.py --legacy-comparison
+
+# Emit a standalone provenance record for the run
+python scripts/run_assessment.py --generate-provenance
+```
+
+Run `python scripts/run_assessment.py --help` for the full list of flags.
+
+### Example output
+
+Each assessed entity produces an evidence-backed record:
+
+```json
+{
+  "assessment_id": "a21b6ef1-263a-5810-9674-a5b306967756",
+  "entity_name": "EKANS",
+  "entity_type": "malware",
+  "source_framework": "MITRE ATT&CK for ICS",
+  "related_techniques": ["T0881", "T0828", "T0840", "T0849"],
+  "raw_evidence": [
+    {
+      "technique_id": "T0881",
+      "technique_name": "Service Stop",
+      "base_score": 68.0,
+      "severity_level": 2
+    }
+  ],
+  "severity": 3,
+  "frequency": 2,
+  "...": "risk_level, provenance, warnings, mitigations"
+}
+```
+
+## Configuration
+
+All scoring behaviour is defined in [`configs/`](configs) — nothing
+methodologically significant is hard-coded in the engine:
+
+| File | Controls |
+|---|---|
+| `configs/scoring.yaml` | Severity buckets, frequency/timeliness/likelihood/impact thresholds |
+| `configs/risk_matrix.yaml` | Final impact × likelihood → qualitative risk lookup matrix |
+| `configs/assurance.yaml` | Provenance, warnings, metadata, mitigation cross-references, AI-assurance toggle |
+
+Changes to `configs/scoring.yaml` or `configs/risk_matrix.yaml` should be
+accompanied by an entry in
+[`docs/METHODOLOGY_DECISIONS.md`](docs/METHODOLOGY_DECISIONS.md) and a
+regression test confirming the intended impact on existing results.
+
+## Repository structure
+
+```
+├── configs/            Versioned scoring/risk/assurance configuration
+├── data/
+│   ├── raw/             Source STIX bundle (MITRE ATT&CK for ICS)
+│   ├── processed/       Intermediate pipeline artefacts
+│   └── reference/       Human-readable exports / curation templates
+├── docs/                Methodology, audit, and design-decision records
+├── legacy/              Original prototype scripts and results (regression oracle)
+├── results/             Generated assessments, metadata, and validation reports
+├── scripts/
+│   └── run_assessment.py   CLI entry point
+├── src/am_assurance/
+│   ├── core/             Domain models, config loading, validation, exceptions
+│   ├── cti/               STIX loading, ATT&CK indexing, technique mapping
+│   ├── risk/               Severity, frequency, timeliness, likelihood, impact, risk matrix
+│   ├── assurance/         Provenance, evidence, controls, assurance records
+│   ├── reporting/         JSON/CSV report writers, run summary
+│   └── ai_assurance/       Isolated extension point for future AI-security work
+└── tests/
+    ├── unit/             Per-factor unit tests
+    ├── regression/       Legacy-equivalence tests
+    └── integration/      End-to-end pipeline tests
+```
+
+## Testing
+
+```bash
+pytest
+```
+
+The suite includes unit tests for every scoring factor, regression tests
+that replay the pipeline against `legacy/original_results/*.json` to
+confirm behavioural equivalence with the original prototype, and an
+isolation test proving the `ai_assurance` extension point cannot influence
+the numeric risk engine.
+
+## Documentation
+
+| Document | Purpose |
+|---|---|
+| [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) | Full specification of every scoring factor, as implemented |
+| [`docs/METHODOLOGY_DECISIONS.md`](docs/METHODOLOGY_DECISIONS.md) | Rationale for every deviation from the original prototype |
+| [`docs/LEGACY_BEHAVIOUR.md`](docs/LEGACY_BEHAVIOUR.md) | Documented quirks/defects in the original code, preserved or explicitly corrected |
+| [`docs/CURRENT_IMPLEMENTATION_AUDIT.md`](docs/CURRENT_IMPLEMENTATION_AUDIT.md) | How the legacy behaviour was reconstructed and verified |
+| [`docs/MISSING_METHODOLOGY_INPUTS.md`](docs/MISSING_METHODOLOGY_INPUTS.md) | Known gaps in the original methodology's documentation/provenance |
+| [`docs/PAPER_METHODOLOGY_EXTRACTION.md`](docs/PAPER_METHODOLOGY_EXTRACTION.md) / [`PAPER_TO_CODE_TRACEABILITY.md`](docs/PAPER_TO_CODE_TRACEABILITY.md) | Mapping between the research paper and the implementation |
+
+## Roadmap
+
+- **AI assurance extension** — `src/am_assurance/ai_assurance/` currently
+  ships as schemas and interfaces only, reserved for future threat mapping
+  against AI-enabled AM components (MITRE ATLAS, OWASP GenAI Security
+  Project, NIST AI RMF). It performs no scoring today and is architecturally
+  prevented from affecting the cyber-risk engine.
+- **AM asset mapping** — `data/reference/am_asset_mapping.csv` is a
+  header-only template for curating technique-to-AM-asset/process-stage
+  mappings; this enrichment is not part of the original methodology and is
+  left for deliberate future curation rather than fabricated data.
+
+## License
+
+Released under the [MIT License](LICENCE.txt).
+
+## Citation
+
+If you use this work in academic research, please cite the associated
+paper (see [`docs/PAPER_METHODOLOGY_EXTRACTION.md`](docs/PAPER_METHODOLOGY_EXTRACTION.md)
+for the source methodology this repository implements).

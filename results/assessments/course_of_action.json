@@ -1,0 +1,4986 @@
+[
+  {
+    "assessment_id": "422a5b50-006d-56a0-aa0b-518eab0a3148",
+    "entity_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+    "entity_name": "Application Isolation and Sandboxing",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0853",
+      "T0820",
+      "T0817",
+      "T0866",
+      "T0819",
+      "T0890"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0853",
+        "technique_name": "Scripting",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2fffbea8-c031-4de8-a451-447bbbe3e224",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0820",
+        "technique_name": "Exploitation for Evasion",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7ff12adb-bc9a-42e5-9cbf-613b200c36dc",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ca5c7ae7-5273-4888-bc50-183d6e200972",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--8fa6fe89-e704-4be4-a15b-50e188084aa3",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0819",
+        "technique_name": "Exploit Public-Facing Application",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e767c178-e4b2-490a-b544-bb1b2d6c7de4",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0890",
+        "technique_name": "Exploitation for Privilege Escalation",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5f03ee5d-534c-454c-aae3-b41130b00286",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851123+00:00"
+  },
+  {
+    "assessment_id": "f4d5fbf2-a592-5396-a200-5fc6cc231056",
+    "entity_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",
+    "entity_name": "Filter Network Traffic",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0848",
+      "T0884",
+      "T0868",
+      "T0857",
+      "T0886",
+      "T0839",
+      "T0859",
+      "T0845",
+      "T0861",
+      "T0843",
+      "T0855",
+      "T0856",
+      "T0806",
+      "T0800",
+      "T0816"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0848",
+        "technique_name": "Rogue Master",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--575f0e0b-d68d-432b-abb3-cbd3e641fc88",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0884",
+        "technique_name": "Connection Proxy",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7bfaf0ff-6d88-460f-aa32-3fb0267b4f20",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--64db6a39-64d2-4999-97d7-91c28c32f42e",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--dc46ffc2-eac7-4491-8d2a-46cf8e2e963f",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f0c8a954-c1a0-453a-9c1d-484305abdab2",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3da977ab-c863-4e6f-a5b7-68173160da00",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5dfa5bad-8b0b-4884-bf01-04ea89e3ccf7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--baf4bd30-4213-43c3-b70c-54418e734caf",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--686cbd74-ef49-4e77-9599-21777d3a4738",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--366a4cd1-aa95-4985-9d80-b45a2551e298",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0855",
+        "technique_name": "Unauthorized Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--48489baf-56c2-423e-964a-0a61688e4a19",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0856",
+        "technique_name": "Spoof Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d08fdedd-12f6-4681-9167-70d070432dee",
+        "base_score": 125.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0806",
+        "technique_name": "Brute Force I/O",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--9a44b2a8-9f4c-43df-9174-1cba6e165886",
+        "base_score": 108.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ee89466e-0655-4217-844d-fb8ea4f76247",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ca768c2a-0f14-471c-90a5-bce649e88d51",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 104.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851246+00:00"
+  },
+  {
+    "assessment_id": "7ca79a50-d8e1-5dd5-9536-351bd64c4acc",
+    "entity_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+    "entity_name": "Restrict Web-Based Content",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0817",
+      "T0865",
+      "T0863"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--fcd3fdbf-4909-48ab-85c4-ce4b34172eb0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c195a0e9-d46c-487f-9a96-b138e9ca05d2",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0863",
+        "technique_name": "User Execution",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--1aa02c37-973e-46bd-ab45-609463e514e9",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851410+00:00"
+  },
+  {
+    "assessment_id": "f31706ed-e9ab-571a-85d7-6288257edfb1",
+    "entity_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",
+    "entity_name": "Network Segmentation",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0869",
+      "T0806",
+      "T0800",
+      "T0848",
+      "T0881",
+      "T0864",
+      "T0839",
+      "T0857",
+      "T0816",
+      "T0838",
+      "T0868",
+      "T0858",
+      "T0842",
+      "T0856",
+      "T0843",
+      "T0819",
+      "T0883",
+      "T0822",
+      "T0886",
+      "T0845",
+      "T0855",
+      "T0866",
+      "T0885",
+      "T0830",
+      "T0805",
+      "T0861",
+      "T0878",
+      "T0802"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0869",
+        "technique_name": "Standard Application Layer Protocol",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0ff88ef7-44fd-4307-b381-2e0bc76ce83b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0806",
+        "technique_name": "Brute Force I/O",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--56672ea4-cbf0-4a3e-8aed-edcc7d33133b",
+        "base_score": 108.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f15f24d2-e581-46ce-83e4-a924f572aae6",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0848",
+        "technique_name": "Rogue Master",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--61668e93-6d9d-418d-9fbd-2d88c3a66544",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0881",
+        "technique_name": "Service Stop",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--9cca3120-c95e-4f5e-bc4b-0521ab5cc512",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0864",
+        "technique_name": "Transient Cyber Asset",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--798919d3-df8b-463f-b2be-4c1aa8089384",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--86d45e92-80ba-4f97-b3a3-03ad3469658b",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a74c14e2-eb8a-47bb-b64d-20aad9154297",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--45ee1822-71e4-4d92-976d-306561b70555",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0838",
+        "technique_name": "Modify Alarm Settings",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--19ab6776-42de-48af-975a-568d31a3bb66",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--eac550b4-3bd2-4309-8b37-b797dd0bd8a7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0858",
+        "technique_name": "Change Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e6e0ef82-2cb6-43fe-8f4a-b9e4d5a57b13",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0842",
+        "technique_name": "Network Sniffing",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--34d4101b-b4c9-4ea3-a84d-81e84e7f5033",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0856",
+        "technique_name": "Spoof Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--531e0589-0dad-444d-aca4-6198ba5d9fcd",
+        "base_score": 125.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--8fcecf74-36df-41ab-9476-539c9ac0b339",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0819",
+        "technique_name": "Exploit Public-Facing Application",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--fcb7733f-553d-43de-a8c6-c85a5cd65041",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0883",
+        "technique_name": "Internet Accessible Device",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--33215dfa-53d0-4bd7-a15d-cec9315c7c4d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--220140ac-d927-4d86-9335-c04aa6ee3c61",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--502a0b7e-048a-468a-b888-e91fde47c6eb",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--671043a9-337f-411a-9ca9-3112e897ab09",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0855",
+        "technique_name": "Unauthorized Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--206cc4c8-797e-427b-86f1-4c81df391c6e",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--63323b12-86db-4b91-a701-90daf3f98f7c",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0885",
+        "technique_name": "Commonly Used Port",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--bde941c6-2ca0-4f94-9336-027e7eee15a1",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--35cf6922-d48f-42ea-b7f5-f0258892bd52",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0805",
+        "technique_name": "Block Serial COM",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--51eca7b9-6330-48a8-badd-65ed3e9d3639",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c7aac6c9-da16-46e2-8cfa-dca07a0a7562",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0878",
+        "technique_name": "Alarm Suppression",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b1768154-221c-48be-ab2b-549ec1eddafb",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0802",
+        "technique_name": "Automated Collection",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a08d85dd-a8b3-4848-94aa-941c43b6d8f2",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 101.5,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851465+00:00"
+  },
+  {
+    "assessment_id": "39aff511-b1ee-5792-bcbb-d7e27ec39b22",
+    "entity_id": "course-of-action--2ab9fc6d-3cf6-4d7b-85f1-3ad6949233b3",
+    "entity_name": "Restrict Library Loading",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0874"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0874",
+        "technique_name": "Hooking",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--04882fef-2a6b-40d0-a101-da9c76a3572e",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 87.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851786+00:00"
+  },
+  {
+    "assessment_id": "85d80ea3-e812-57c6-9695-43d1be16c1a7",
+    "entity_id": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722",
+    "entity_name": "Active Directory Configuration",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0859"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--eeeaa0d4-0ca0-468e-ae13-43ab7aba61b4",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851826+00:00"
+  },
+  {
+    "assessment_id": "b74401b5-1a9a-5441-8e4b-aa3fc0c8c24c",
+    "entity_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
+    "entity_name": "Network Intrusion Prevention",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0884",
+      "T0863",
+      "T0867",
+      "T0830",
+      "T0885",
+      "T0865",
+      "T0869"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0884",
+        "technique_name": "Connection Proxy",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7411b05d-209a-4907-83ce-00ab1538fbac",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0863",
+        "technique_name": "User Execution",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b1d993d5-9e7e-4043-a651-07c7b5ad5a6b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0867",
+        "technique_name": "Lateral Tool Transfer",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c69eab3c-861c-45f5-8858-a595fcc7e6f6",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b13417ea-d8da-497f-818f-d2d90562039a",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0885",
+        "technique_name": "Commonly Used Port",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7dedeb73-ef90-4282-a635-cc37326773af",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--9a607f89-85b8-4fba-8eb7-7e4900ea693f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0869",
+        "technique_name": "Standard Application Layer Protocol",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5be1f2b1-75fd-4e7e-901b-495cee4ab5ad",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 107.1111111111111,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851859+00:00"
+  },
+  {
+    "assessment_id": "b2f8bee5-bdc6-5661-939a-36d0e2c159b1",
+    "entity_id": "course-of-action--3222a807-521b-4a1a-aa13-f1cda45734b3",
+    "entity_name": "Restrict Registry Permissions",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0881"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0881",
+        "technique_name": "Service Stop",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0e4f272b-d744-4feb-9f3f-c24c3598538f",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 68.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851937+00:00"
+  },
+  {
+    "assessment_id": "8a963d88-ad7d-53e9-84e6-921c2c38b2f5",
+    "entity_id": "course-of-action--337c4e2a-21a7-4d9a-bfee-9efd6cebf0e5",
+    "entity_name": "Data Loss Prevention",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0882"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0882",
+        "technique_name": "Theft of Operational Information",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--bc74ff8f-d5fa-40fb-8c0b-f16af3ff36e3",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 87.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.851970+00:00"
+  },
+  {
+    "assessment_id": "3562967c-7fc5-5ca7-a982-02165da6e06e",
+    "entity_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
+    "entity_name": "Access Management",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0891",
+      "T0839",
+      "T0858",
+      "T0838",
+      "T0859",
+      "T0857",
+      "T0816",
+      "T0845",
+      "T0886",
+      "T0861",
+      "T0871",
+      "T0812",
+      "T0800",
+      "T0843",
+      "T0868"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0891",
+        "technique_name": "Hardcoded Credentials",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5714c88f-ca54-46b6-b072-cd1d24714ae0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d1971b32-3a15-4544-9f36-80c05121deb6",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0858",
+        "technique_name": "Change Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a86cee0a-dc49-4c95-b5dc-37405337490b",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0838",
+        "technique_name": "Modify Alarm Settings",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f20d8eed-b517-4297-b32a-9a5e0845de9f",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--104b4f25-d0a9-41f6-94b3-fa85ee8b1523",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--68d30c45-766f-48b6-9405-0c969243332b",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e8af0b34-4a67-4966-a34a-c4d1b346ea15",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5ca1d677-b41f-4f1e-b86b-f5637a418829",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c9065f74-556d-4728-8072-f96642e70316",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b7f23af2-e948-4531-af56-1a1b4d03702f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0871",
+        "technique_name": "Execution through API",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--efb80069-e4be-4055-bd34-06d1376b4601",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0812",
+        "technique_name": "Default Credentials",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3ed98d8c-de30-499e-9a62-eae0207519f4",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b3b24837-83ed-46c5-ba80-66a832c7072e",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ec105f62-2552-41fa-8b07-619dc1bf9b19",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6637d8e6-6578-4d15-a993-d63ced4c4464",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 92.75,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852010+00:00"
+  },
+  {
+    "assessment_id": "de65c731-d26c-56d7-b894-8183e3a29118",
+    "entity_id": "course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433",
+    "entity_name": "Mitigation Limited or Not Effective",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0852",
+      "T0877",
+      "T0835",
+      "T0823",
+      "T0840",
+      "T0801"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0852",
+        "technique_name": "Screen Capture",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b5e52859-8dab-4e7e-af70-bb38c6993c98",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0877",
+        "technique_name": "I/O Image",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--17ae41a5-cb45-4935-bec1-ea0c8bfb2f34",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0835",
+        "technique_name": "Manipulate I/O Image",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b5bb5ec3-aa3c-4734-8425-4be80c5658a9",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0823",
+        "technique_name": "Graphical User Interface",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2b62e4c0-9267-47bd-8f4d-0394b13fb566",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0840",
+        "technique_name": "Network Connection Enumeration",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ae7487f1-a2d0-443d-b418-cd726c5ac15f",
+        "base_score": 110.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0801",
+        "technique_name": "Monitor Process State",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5804ae3d-0daf-47a5-b026-d42878f55803",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      }
+    ],
+    "severity": 4,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 133.25,
+    "impact_level": "Very Critical",
+    "risk_level": "Low",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852234+00:00"
+  },
+  {
+    "assessment_id": "931e6829-1ecc-54b0-9dde-2dec1d6f5ccd",
+    "entity_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9",
+    "entity_name": "Exploit Protection",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0866",
+      "T0890",
+      "T0819",
+      "T0817",
+      "T0820"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--47f15a06-8675-4698-833d-bd141ed9e755",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0890",
+        "technique_name": "Exploitation for Privilege Escalation",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3b6567a9-6213-4db4-a069-1a86b1098b63",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0819",
+        "technique_name": "Exploit Public-Facing Application",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ad7fd147-066e-4ed5-aa9d-7b2f1771150d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e5afc447-a241-4773-9a8a-3d6fd205d926",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0820",
+        "technique_name": "Exploitation for Evasion",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--238f967a-0c29-4aa3-bbb5-3dc593473bbf",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852312+00:00"
+  },
+  {
+    "assessment_id": "1f2ec2eb-3f6c-5e77-92dd-856f85321f68",
+    "entity_id": "course-of-action--49b306c1-a046-42c5-a4d2-30f264ada110",
+    "entity_name": "Limit Access to Resource Over Network",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0822"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2daeeaaa-5b4b-4bb7-a94d-78a5749027ca",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852373+00:00"
+  },
+  {
+    "assessment_id": "cbb06815-4774-557a-8620-83f29285613e",
+    "entity_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30",
+    "entity_name": "Execution Prevention",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0871",
+      "T0834",
+      "T0849",
+      "T0863",
+      "T0853",
+      "T0807"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0871",
+        "technique_name": "Execution through API",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3d676c1b-2650-4599-8a57-790c55f9977d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0834",
+        "technique_name": "Native API",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--446c95ea-5178-4ae9-8f92-cb20dd50f7de",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0849",
+        "technique_name": "Masquerading",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--cca191a1-3c50-4d4f-8f79-4247e58af610",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0863",
+        "technique_name": "User Execution",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--07f4d65d-4572-450f-8cb2-908fee97bd67",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0853",
+        "technique_name": "Scripting",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2f64b5aa-7e4d-4a5e-9960-69a63ad25083",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0807",
+        "technique_name": "Command-Line Interface",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--75366cbf-e45f-4cfd-9e76-5af4dfe10766",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852425+00:00"
+  },
+  {
+    "assessment_id": "06551554-bd9f-53b8-afa6-8289b5ab8ec2",
+    "entity_id": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a",
+    "entity_name": "Static Network Configuration",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0830",
+      "T0842",
+      "T0888",
+      "T0804",
+      "T0803",
+      "T0878",
+      "T0846"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--808174b7-3ab0-45b5-963e-5c10dd749e3c",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0842",
+        "technique_name": "Network Sniffing",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--df6da4ec-cbe8-4f93-a41f-3726a9491938",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0888",
+        "technique_name": "Remote System Information Discovery",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--74ec9ce5-3155-488c-ae56-570c47a1d207",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0804",
+        "technique_name": "Block Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--139bb9e7-e5fd-4366-b2e6-4f74a73ec984",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0803",
+        "technique_name": "Block Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f951d934-d555-45e9-a564-27b84518cae4",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0878",
+        "technique_name": "Alarm Suppression",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5d33de22-35b0-47fa-bc63-f984522340b7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0846",
+        "technique_name": "Remote System Discovery",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b2defaaf-625d-416e-8a9d-8be6d89bacdc",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 4,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 120.55555555555556,
+    "impact_level": "Very Critical",
+    "risk_level": "Low",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852514+00:00"
+  },
+  {
+    "assessment_id": "7123389e-4c0d-52f4-bbb0-56882b90ed94",
+    "entity_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",
+    "entity_name": "Password Policies",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0859",
+      "T0812",
+      "T0886",
+      "T0822"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a1383f2a-2ee2-47df-a661-8904a7535e0c",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0812",
+        "technique_name": "Default Credentials",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--33486e89-f0f4-4507-9f13-48a8f22c8ac8",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5212f36b-216f-4e32-8b64-3b4c94dfada5",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--98f1d575-a975-42ae-8b00-2c9e22d560d5",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852595+00:00"
+  },
+  {
+    "assessment_id": "cf89715d-a5b6-5e4b-8327-41e67c9ccfc1",
+    "entity_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5",
+    "entity_name": "Privileged Account Management",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0859",
+      "T0811",
+      "T0866",
+      "T0809",
+      "T0819",
+      "T0842"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--111f437a-c67d-40e4-9515-7e9b22e65eff",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0811",
+        "technique_name": "Data from Information Repositories",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ba010007-6dde-4c9d-8452-69527cd1c2ba",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a78e727c-8e42-448c-beb4-463804e18be0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0809",
+        "technique_name": "Data Destruction",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e8eaac2d-a4bf-408f-b24f-14471db7059b",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0819",
+        "technique_name": "Exploit Public-Facing Application",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--bc3744d6-9275-4d91-8888-16d5f4d5187b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0842",
+        "technique_name": "Network Sniffing",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--26fdd07e-d194-4f8e-a9af-d5b2f1d0222e",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 105.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852658+00:00"
+  },
+  {
+    "assessment_id": "48da4559-b0d4-5e3e-83ae-15439b95b6ba",
+    "entity_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0",
+    "entity_name": "Human User Authentication",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0838",
+      "T0839",
+      "T0857",
+      "T0885",
+      "T0871",
+      "T0868",
+      "T0858",
+      "T0816",
+      "T0886",
+      "T0843",
+      "T0800",
+      "T0861",
+      "T0845"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0838",
+        "technique_name": "Modify Alarm Settings",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--03a9cdc7-3cc5-43e3-9a9c-97d1c4310e35",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7d6c4a00-acde-40af-bf91-a4ef009cf135",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--17fdec71-98e8-4314-a1be-037edede58bd",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0885",
+        "technique_name": "Commonly Used Port",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0a5d2136-e1f5-4a54-be64-a558f918bf0d",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0871",
+        "technique_name": "Execution through API",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--dded2d68-35c7-42c4-af10-efe7731673e3",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--49d38b21-5ce5-48d9-a356-639fc6c7a53d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0858",
+        "technique_name": "Change Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--22448288-32d9-4d2c-be16-0784e119fff1",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3a6cd53d-0d4e-4cf8-8edf-f9ebde4faac4",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6d1906b4-e815-4688-86f1-ce61d403f8c6",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--fa1bde35-63d9-4c5c-969b-2c17c29089fa",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--63453d2f-30f6-40ab-b32c-506d940ecd20",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--79324bdd-cdab-4d0a-af60-af1047c1d117",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f45c2df8-30e7-45d0-8067-7b2870767574",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 94.11904761904762,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852728+00:00"
+  },
+  {
+    "assessment_id": "662e612b-18ad-5f53-aa29-8f827adf111e",
+    "entity_id": "course-of-action--6a02e38a-9629-40c0-8c7d-e98e3470315c",
+    "entity_name": "SSL/TLS Inspection",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0884"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0884",
+        "technique_name": "Connection Proxy",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--20a0d820-59ef-42fc-9f56-7a93d1ce7a84",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852847+00:00"
+  },
+  {
+    "assessment_id": "52595f24-9111-596e-a409-0ee647b1d161",
+    "entity_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",
+    "entity_name": "Code Signing",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0857",
+      "T0843",
+      "T0862",
+      "T0873",
+      "T0821",
+      "T0839",
+      "T0863",
+      "T0851",
+      "T0889",
+      "T0849"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3be9d4d1-17e1-4f3e-b22a-edad8cf0c343",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--cb30d507-edc6-4197-947c-7b3a6e395c0d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d6a2a1a8-8f5b-4e94-8fce-8edd8a17627a",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0873",
+        "technique_name": "Project File Infection",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f9c29dd4-1c5e-4f7e-b60a-862319a6d0a0",
+        "base_score": 110.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0821",
+        "technique_name": "Modify Controller Tasking",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--973f5884-a076-413e-ac96-f0bd01375fb6",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--46332a77-2fd6-4033-96cf-6163172775ec",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0863",
+        "technique_name": "User Execution",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e09e253c-fd28-49ae-988e-1f80d769e8b8",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0851",
+        "technique_name": "Rootkit",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2971151c-0e8a-4567-84dc-01cf5dd35005",
+        "base_score": 130.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0889",
+        "technique_name": "Modify Program",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a91002fe-21b2-4417-9c23-af712a7a035c",
+        "base_score": 82.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0849",
+        "technique_name": "Masquerading",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b9e82422-b072-494f-99c1-fcab07b90133",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 98.41666666666667,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852878+00:00"
+  },
+  {
+    "assessment_id": "ad1aaa66-8059-57e5-9f1c-6e2655a932c4",
+    "entity_id": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549",
+    "entity_name": "Software Process and Device Authentication",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0838",
+      "T0855",
+      "T0861",
+      "T0800",
+      "T0886",
+      "T0868",
+      "T0839",
+      "T0858",
+      "T0843",
+      "T0845",
+      "T0816",
+      "T0860",
+      "T0856",
+      "T0857",
+      "T0830",
+      "T0806",
+      "T0848"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0838",
+        "technique_name": "Modify Alarm Settings",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5d4f6aff-650c-45fe-a9d8-2080d3ea02d7",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0855",
+        "technique_name": "Unauthorized Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--bbf297d3-0c3c-44be-b780-332bac17b0ba",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--984992e3-0407-406a-b8dd-c114d8b2d9a2",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--758d5818-f919-4a6b-9dc2-a212595a11bd",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--4211c12a-57cf-4ebb-910a-6af7aa09cf34",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--107d9a23-991b-44f5-97f6-7f6983c7013a",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--26e58427-a2bd-4e77-9939-16ef60a072e7",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0858",
+        "technique_name": "Change Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7d5759cd-890e-4ec5-b92b-aba225d52960",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--028a3bcc-f299-4061-a0f2-8da85e0a3c81",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--06c663f8-fcf1-47eb-ab79-284e93eafa6b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f862418a-e7b4-4783-8949-7145f3dee665",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0860",
+        "technique_name": "Wireless Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3f335e8f-68da-4b06-9d96-f371ddaf23e6",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0856",
+        "technique_name": "Spoof Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--088580e9-ccea-426e-9411-c1de60de650d",
+        "base_score": 125.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--bcaa4f7e-2e84-4bbb-9fb7-ca8fb003108f",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--71e9230d-eec8-4ce1-bc96-9288bacc8b13",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0806",
+        "technique_name": "Brute Force I/O",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--be950e87-80ac-49ea-810a-553c7f72151b",
+        "base_score": 108.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0848",
+        "technique_name": "Rogue Master",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0f8a6c14-1050-404a-bb6e-4fe107d5b6cd",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 100.74074074074073,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.852979+00:00"
+  },
+  {
+    "assessment_id": "bbe2cc66-ad9a-5e37-bd0a-9929c2f772ae",
+    "entity_id": "course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a",
+    "entity_name": "Encrypt Network Traffic",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0842",
+      "T0860",
+      "T0887",
+      "T0839",
+      "T0857"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0842",
+        "technique_name": "Network Sniffing",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c5fd0969-c151-4849-94c2-83e2e208cff7",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0860",
+        "technique_name": "Wireless Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b363cbbb-679c-47e0-8ad0-af98ebf51e60",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0887",
+        "technique_name": "Wireless Sniffing",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3478c49c-594b-4224-b7f9-2b0b09c67288",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--41b87fd8-6e4d-4e53-a282-c85292fdaa22",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--43bdf580-b98f-49cf-92d5-3dac50450c86",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 110.95833333333333,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853125+00:00"
+  },
+  {
+    "assessment_id": "bbc78bc3-dfce-50ad-b93a-af0dd92672d8",
+    "entity_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02",
+    "entity_name": "Account Use Policies",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0859",
+      "T0822"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ea817c7a-9424-4204-90a5-6f8fb86037be",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--276aa6a6-e700-470a-8f72-02537ba7be9d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853218+00:00"
+  },
+  {
+    "assessment_id": "7814b060-c3b7-575f-8e5f-a04fed59c5e9",
+    "entity_id": "course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7",
+    "entity_name": "Application Developer Guidance",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0859"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b69f31c3-6c12-4b81-8e74-9c58ea635fa4",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853267+00:00"
+  },
+  {
+    "assessment_id": "eced015c-67fc-5dc1-bdcf-7c743e400d84",
+    "entity_id": "course-of-action--8ac1d6e1-b07f-476a-9732-84984ebc2405",
+    "entity_name": "Boot Integrity",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0839",
+      "T0857"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0c284ce0-0be2-4164-b686-7c383b246aec",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a47cd7b9-2b73-480c-a8ab-2dfa908e02ea",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 100.25,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853302+00:00"
+  },
+  {
+    "assessment_id": "74b3ac3e-fe14-5281-99bc-6c3950955efb",
+    "entity_id": "course-of-action--8bc4a54e-810c-4600-8b6c-08fa8413a401",
+    "entity_name": "Mechanical Protection Layers",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0879",
+      "T0880"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0879",
+        "technique_name": "Damage to Property",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e607bb66-e53f-4684-b3f1-36a997e27d01",
+        "base_score": 48.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0880",
+        "technique_name": "Loss of Safety",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--242b5a0d-e4e8-4ceb-a975-cf8efd64e981",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 1,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 48.0,
+    "impact_level": "Certain Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853343+00:00"
+  },
+  {
+    "assessment_id": "58c0bab8-1b81-55d5-bd9c-77909b978a1f",
+    "entity_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",
+    "entity_name": "Update Software",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0820",
+      "T0819",
+      "T0857",
+      "T0866",
+      "T0862",
+      "T0890",
+      "T0817",
+      "T0864"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0820",
+        "technique_name": "Exploitation for Evasion",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--97c5b388-518a-46ec-b2b0-41bfa6a83204",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0819",
+        "technique_name": "Exploit Public-Facing Application",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6f2c2043-6487-467a-bb49-e8cd2509ae9f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a75ddacf-e87e-4a99-83f2-618486473163",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e0d101cc-1284-4e88-82d6-227fe5d19d8a",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--03d44496-7a15-4e23-820f-b6f1079dbbd3",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0890",
+        "technique_name": "Exploitation for Privilege Escalation",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--91f29477-2ff6-4dbf-bf68-c8825a938851",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--1a40cec9-47c3-404e-b039-b7ae83ffaf68",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0864",
+        "technique_name": "Transient Cyber Asset",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b8edcf0a-ec53-4203-b3ad-2cc734a1f1dd",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 82.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853386+00:00"
+  },
+  {
+    "assessment_id": "6c4eac2d-75a9-570d-af4d-2aad1fda009a",
+    "entity_id": "course-of-action--98aa0d61-fc9d-4b2d-8f18-b25d03549f53",
+    "entity_name": "Watchdog Timers",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0814"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0814",
+        "technique_name": "Denial of Service",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5d0a7979-0420-4fd1-b5ad-cb5565cbdf9d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853470+00:00"
+  },
+  {
+    "assessment_id": "d6f94d65-d714-5b7e-8e94-d505d7ab4940",
+    "entity_id": "course-of-action--99c746d7-a08a-4169-94f9-b8c0dad716fa",
+    "entity_name": "Operational Information Confidentiality",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0882"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0882",
+        "technique_name": "Theft of Operational Information",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--69576d3c-d0e8-459e-9f2e-0b9c560b2e04",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 87.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853502+00:00"
+  },
+  {
+    "assessment_id": "3b72ec78-a128-5407-954c-7dd69f197494",
+    "entity_id": "course-of-action--9a945a29-5233-4422-a9e3-3e957b0e8bce",
+    "entity_name": "Operating System Configuration",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0847"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0847",
+        "technique_name": "Replication Through Removable Media",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--604a9bf0-81a3-425b-9005-779c4f0f749d",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 62.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853534+00:00"
+  },
+  {
+    "assessment_id": "529bbe48-e0c1-55ab-a1f7-0d1845c4895d",
+    "entity_id": "course-of-action--9e3adcad-0b8f-4ecc-a2f3-06f607f53bf0",
+    "entity_name": "Limit Hardware Installation",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0847"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0847",
+        "technique_name": "Replication Through Removable Media",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--8f90363e-2825-4178-807f-9268a28760fa",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 62.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853566+00:00"
+  },
+  {
+    "assessment_id": "1bee929c-2db0-557b-807e-2352f46ea17e",
+    "entity_id": "course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc",
+    "entity_name": "Encrypt Sensitive Information",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0811",
+      "T0873",
+      "T0864",
+      "T0882",
+      "T0839",
+      "T0857"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0811",
+        "technique_name": "Data from Information Repositories",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--50a2b289-7bce-405d-8515-c2b5424cce5c",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0873",
+        "technique_name": "Project File Infection",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c78f497f-01c3-4efb-aa74-92b700b9c02b",
+        "base_score": 110.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0864",
+        "technique_name": "Transient Cyber Asset",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2fbb7867-79c5-4d45-9876-98c4041dd72e",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0882",
+        "technique_name": "Theft of Operational Information",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--cb4d802e-df5b-4017-81dd-47f65fff23a3",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--09977105-562f-4f45-a151-27a11a18031e",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--cf8ac499-8c1c-4615-b933-7587f1b9488b",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 96.9,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853597+00:00"
+  },
+  {
+    "assessment_id": "92aef636-59c3-578b-a213-f2fe2668288c",
+    "entity_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",
+    "entity_name": "Network Allowlists",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0803",
+      "T0839",
+      "T0838",
+      "T0843",
+      "T0869",
+      "T0804",
+      "T0857",
+      "T0816",
+      "T0856",
+      "T0861",
+      "T0868",
+      "T0802",
+      "T0878",
+      "T0806",
+      "T0884",
+      "T0805",
+      "T0858",
+      "T0848",
+      "T0886",
+      "T0879",
+      "T0800",
+      "T0855",
+      "T0845"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0803",
+        "technique_name": "Block Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c6562519-81c5-4eca-a815-f46ac0ed4bcc",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f0ac1d07-fccd-4330-93cf-fbc985ee6fb9",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0838",
+        "technique_name": "Modify Alarm Settings",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2cd79563-0f5a-44a1-9be4-6dc330855d64",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--4256a0c2-437d-4a4c-88ac-d08d3041b8c1",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0869",
+        "technique_name": "Standard Application Layer Protocol",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d854cc38-adf7-485d-96b5-70606f6cb87e",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0804",
+        "technique_name": "Block Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7fc9fbfc-ab9f-4189-bc1f-d473e9ef36b5",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3dde2b07-7c30-4a18-a9df-f85db84f9b14",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--00e6c22b-9275-4039-b6d4-2ac0680325d6",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0856",
+        "technique_name": "Spoof Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ce7c17b7-b60d-4ebd-9014-2c421a64d70a",
+        "base_score": 125.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2ecc567f-3aaa-4bd8-935f-4808d177a552",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a22fabd2-836e-4141-9219-c76cc10138ec",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0802",
+        "technique_name": "Automated Collection",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6f0384e6-73c8-4fc7-bc0c-0a8c2bfa473d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0878",
+        "technique_name": "Alarm Suppression",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ade12d27-13bb-4ebf-be08-7039cf699682",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0806",
+        "technique_name": "Brute Force I/O",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--461e81a2-c7ad-499e-908d-05ef2f7bd9cd",
+        "base_score": 108.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0884",
+        "technique_name": "Connection Proxy",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c8dd2735-bd04-4413-847d-316b77c6de19",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0805",
+        "technique_name": "Block Serial COM",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--cd297a7b-4b02-407e-a798-e36fef4cf3a1",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0858",
+        "technique_name": "Change Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ab60fe4a-5860-410a-8bca-2cdbea95e5f8",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0848",
+        "technique_name": "Rogue Master",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--652a68a2-a26b-4e8c-86dd-fd83187ed043",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--842a2b85-4e77-4eb6-99e1-c4a231aadf48",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0879",
+        "technique_name": "Damage to Property",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--58269882-7e8d-4d24-b7a3-dbef6196cb61",
+        "base_score": 48.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--10626671-941d-4a82-a835-56059058ef87",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0855",
+        "technique_name": "Unauthorized Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b960c5ed-1ea8-4dde-9203-c02d291d3bc6",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c0efb24a-2329-401a-bba6-817f2867bb3f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 94.2,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853699+00:00"
+  },
+  {
+    "assessment_id": "02c74739-c11b-5020-9d8e-6599c657ac70",
+    "entity_id": "course-of-action--ac8f3492-7fbb-4a0a-b0b4-b75ec676136c",
+    "entity_name": "Supply Chain Management",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0862"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c8a40335-90d6-496a-b4f9-1cc93d3fffc6",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 68.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853900+00:00"
+  },
+  {
+    "assessment_id": "a0560cff-463a-5c6c-bfde-6e4d72fabfdf",
+    "entity_id": "course-of-action--ad12819e-3211-4291-b360-069f280cff0a",
+    "entity_name": "Data Backup",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0809",
+      "T0827",
+      "T0826",
+      "T0813",
+      "T0829",
+      "T0832",
+      "T0831",
+      "T0828",
+      "T0815"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0809",
+        "technique_name": "Data Destruction",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6be4cef2-3d54-4cd8-97df-8a8b37c03605",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0827",
+        "technique_name": "Loss of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6ad39b3a-a962-457f-852c-be7fc615e22f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0826",
+        "technique_name": "Loss of Availability",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b8d6e550-18fe-49ad-9964-7802bbe0cb58",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0813",
+        "technique_name": "Denial of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--44c857cf-7a4e-405a-87ca-7f6d79000589",
+        "base_score": 57.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0829",
+        "technique_name": "Loss of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--eecca3e7-4db5-40d4-b04c-13f84701acb3",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0832",
+        "technique_name": "Manipulation of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c64f2ed2-f7a7-4333-b0d3-d687ffb7ad6b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0831",
+        "technique_name": "Manipulation of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--578117b2-0f4b-4d75-a2dc-3ee45976e616",
+        "base_score": 83.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0828",
+        "technique_name": "Loss of Productivity and Revenue",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--dda89758-9d0b-446d-b594-85acc7f9cb90",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0815",
+        "technique_name": "Denial of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c2fe42b4-6750-4b51-86b7-6c37fbfdef2d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 75.66666666666667,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.853935+00:00"
+  },
+  {
+    "assessment_id": "289971af-1720-590a-82e4-102bba701e5b",
+    "entity_id": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e",
+    "entity_name": "Out-of-Band Communications Channel",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0813",
+      "T0830",
+      "T0815",
+      "T0829",
+      "T0878",
+      "T0803",
+      "T0832",
+      "T0805",
+      "T0827",
+      "T0804",
+      "T0831",
+      "T0826"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0813",
+        "technique_name": "Denial of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2089201c-c1c6-4d92-a737-a6499e26ee7f",
+        "base_score": 57.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--52855d5d-e835-470f-a675-751c2779c861",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0815",
+        "technique_name": "Denial of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--18ef2d69-d11a-4d31-a803-da989c4073f7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0829",
+        "technique_name": "Loss of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ecf39e19-439f-4e9a-97c2-673ce4eb0a1a",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0878",
+        "technique_name": "Alarm Suppression",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c9395e2a-afaf-427c-bcb2-ae663d72c05c",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0803",
+        "technique_name": "Block Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0c9ed09d-4ce3-4e65-845a-c21dcc5d956f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0832",
+        "technique_name": "Manipulation of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--58cb4cb5-4b0f-4ce0-b3f9-5deb9de31c52",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0805",
+        "technique_name": "Block Serial COM",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7d0ec383-4c5d-474d-9262-3f3c0d6c05b1",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0827",
+        "technique_name": "Loss of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--8b17ad46-b0cc-4766-9cae-eba32260d468",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0804",
+        "technique_name": "Block Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2c8dd182-e0a1-469d-aa65-7a1f734d9b46",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0831",
+        "technique_name": "Manipulation of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--520aad6a-2483-45bc-a172-2417137f6ca0",
+        "base_score": 83.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0826",
+        "technique_name": "Loss of Availability",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--52c7176b-431d-44a6-8c03-7c15a8cf6ce1",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 90.16666666666667,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854029+00:00"
+  },
+  {
+    "assessment_id": "27703c54-275a-569a-82f9-8df99fd167a6",
+    "entity_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+    "entity_name": "Audit",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0851",
+      "T0859",
+      "T0889",
+      "T0864",
+      "T0821",
+      "T0873",
+      "T0830",
+      "T0836",
+      "T0839",
+      "T0862",
+      "T0843",
+      "T0874",
+      "T0857",
+      "T0811"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0851",
+        "technique_name": "Rootkit",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5de6bf53-0a02-439b-a8d0-248fa9640a36",
+        "base_score": 130.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--baf7daf3-2116-4051-91b5-f82e146167d0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0889",
+        "technique_name": "Modify Program",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--34ac1b1b-1103-4fc9-a62e-f1dd1451b28b",
+        "base_score": 82.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0864",
+        "technique_name": "Transient Cyber Asset",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5041e17d-6349-4589-8c61-7b43964b5f9b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0821",
+        "technique_name": "Modify Controller Tasking",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--698d7c50-daab-4087-a7b4-b2bc8dfd81a7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0873",
+        "technique_name": "Project File Infection",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f9aa3364-a1eb-4776-ae03-c39b250545a0",
+        "base_score": 110.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b47dbc50-fd8f-4e5b-bb3d-e93b68bf5497",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0836",
+        "technique_name": "Modify Parameter",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5bf8473c-3c60-4a8a-8514-c2b50ab8a92d",
+        "base_score": 101.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--65a45501-10de-46a2-89bf-03bbf17aba33",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0491ef92-2941-4841-9fe6-2e1809788b52",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--1c3d966a-5995-48ed-919d-25b972010fe9",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0874",
+        "technique_name": "Hooking",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b72b7dfd-f134-4324-84b8-52ff13fc6b5c",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--04fa6b94-d633-40ff-9ab2-88f58c07c3e1",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0811",
+        "technique_name": "Data from Information Repositories",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2ff82993-5010-4450-89e7-341f449f3263",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 98.21666666666667,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854138+00:00"
+  },
+  {
+    "assessment_id": "a181ea31-a1ed-5ad3-ab10-2a519e67420b",
+    "entity_id": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac",
+    "entity_name": "Communication Authenticity",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0845",
+      "T0861",
+      "T0858",
+      "T0816",
+      "T0856",
+      "T0855",
+      "T0848",
+      "T0857",
+      "T0800",
+      "T0839",
+      "T0830",
+      "T0868",
+      "T0831",
+      "T0832",
+      "T0860",
+      "T0843"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0df0cb6d-0067-48b2-a33e-495415713ab7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--dbdd9a97-81df-40b8-b72d-ac67d121b8b3",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0858",
+        "technique_name": "Change Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--12a6c5bc-c685-4249-b8c6-e6d49aa2b9ed",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--491455dc-f7c8-4e12-811b-b8c5c041b4c3",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0856",
+        "technique_name": "Spoof Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--147c2158-b2af-4d88-9d59-594c67a9200e",
+        "base_score": 125.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0855",
+        "technique_name": "Unauthorized Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6e3c2c04-0838-4863-80a7-d73ef5ac6a64",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0848",
+        "technique_name": "Rogue Master",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7db9687b-7099-4cb6-a040-bc32fc549a81",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--234da455-b795-4788-bc5d-22b4b58b2dc7",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--afd63145-6033-49e4-ad43-d0b35fa5ed88",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0839",
+        "technique_name": "Module Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7aa93b40-80da-4bb6-8a7c-88e5f5e44669",
+        "base_score": 104.5,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f6ff74c2-d088-4252-a8e0-189574863765",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--808c57e7-72ef-4860-b9ea-8ea072e2385a",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0831",
+        "technique_name": "Manipulation of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b628d878-4f35-4580-8d42-26984d13821e",
+        "base_score": 83.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0832",
+        "technique_name": "Manipulation of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--41adaf0b-b7ae-4bdb-9a5b-567fd0911d7a",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0860",
+        "technique_name": "Wireless Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3ab912a4-70aa-45f8-b2ef-57113dde2cfa",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ebc34374-2dee-4dc1-b0b7-f31ae94dab11",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 97.14583333333333,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854264+00:00"
+  },
+  {
+    "assessment_id": "564ba86a-d8a2-5478-a31e-64885e396083",
+    "entity_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7",
+    "entity_name": "Disable or Remove Feature or Program",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0847",
+      "T0853",
+      "T0830",
+      "T0807",
+      "T0816",
+      "T0866",
+      "T0885",
+      "T0822"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0847",
+        "technique_name": "Replication Through Removable Media",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d8f45959-e0fc-4b4f-a074-a3acea926300",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0853",
+        "technique_name": "Scripting",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--590bdd67-31ef-4edd-b2ac-2bd1b98da19c",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0830",
+        "technique_name": "Adversary-in-the-Middle",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d16e8909-d055-4174-aeb1-22c0613b2f73",
+        "base_score": 116.66666666666667,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0807",
+        "technique_name": "Command-Line Interface",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7c2edd6c-5189-4ba9-af3d-bdaff4a699ca",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--8ca2fe75-9bb3-4af5-8fee-accd33d6d2ec",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--4369da69-bb09-4cc8-8600-081a450f50e0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0885",
+        "technique_name": "Commonly Used Port",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ca64a927-f050-41b3-80d3-93d22cdef26a",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a847aa03-ea56-47d1-8f4e-f9e0dd9707a0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 93.75,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854402+00:00"
+  },
+  {
+    "assessment_id": "4edcc5e3-c1d1-5402-a586-143c1d60f8c6",
+    "entity_id": "course-of-action--d48b79b2-076d-483e-949c-0d38aa347499",
+    "entity_name": "Threat Intelligence Program",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0890",
+      "T0820",
+      "T0866"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0890",
+        "technique_name": "Exploitation for Privilege Escalation",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f40cc6f5-111c-418f-aa84-50d920fa6c48",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0820",
+        "technique_name": "Exploitation for Evasion",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--08302021-aacf-428f-a0ce-e1034d925fb0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5914a482-dbb7-429d-96f3-77f0588ac12d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854484+00:00"
+  },
+  {
+    "assessment_id": "cb64a2ba-096e-52da-84f0-7032e216d417",
+    "entity_id": "course-of-action--da44255d-85c5-492c-baf3-ee823d44f848",
+    "entity_name": "Safety Instrumented Systems",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0879",
+      "T0880"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0879",
+        "technique_name": "Damage to Property",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d1d98f8c-aea2-4f06-9b0d-c543ed42c6a4",
+        "base_score": 48.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0880",
+        "technique_name": "Loss of Safety",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0ffdee1a-1e83-4506-aba2-38c55812abb3",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 1,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 48.0,
+    "impact_level": "Certain Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854529+00:00"
+  },
+  {
+    "assessment_id": "674d19c7-e153-5d1b-8214-c4ad42d088c5",
+    "entity_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba",
+    "entity_name": "User Training",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0865",
+      "T0811",
+      "T0863"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--81ca994a-b350-424d-8f39-a0b64aa76260",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0811",
+        "technique_name": "Data from Information Repositories",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f497fd3e-8f05-4db2-97cc-48a8d35a8827",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0863",
+        "technique_name": "User Execution",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--71c9db9c-6f0c-4e33-a20a-dcd5b791a49a",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 87.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854568+00:00"
+  },
+  {
+    "assessment_id": "3dbae5eb-d2c1-5bcb-91ff-37dad56c2436",
+    "entity_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd",
+    "entity_name": "Multi-factor Authentication",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0859",
+      "T0842",
+      "T0822"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--9b412b1f-2dd0-4e7f-8364-f625181ba1db",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0842",
+        "technique_name": "Network Sniffing",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--58a0fd57-ea5f-46b0-84ac-c5b963fb7e94",
+        "base_score": 141.0,
+        "severity_level": 4,
+        "warning": null
+      },
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--dc35c44a-a90c-48a1-8811-af2618216e42",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 4,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 141.0,
+    "impact_level": "Very Critical",
+    "risk_level": "Low",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854613+00:00"
+  },
+  {
+    "assessment_id": "04d8aad9-627e-502b-aa08-c1817c9ea7ce",
+    "entity_id": "course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037",
+    "entity_name": "Vulnerability Scanning",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0862",
+      "T0866",
+      "T0819"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c67e3535-69a9-4234-8170-4ad6efc632b7",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0866",
+        "technique_name": "Exploitation of Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--1f87378c-49fb-4da5-8ed3-3672633d3713",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0819",
+        "technique_name": "Exploit Public-Facing Application",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--968830b7-ee80-4a6e-96a4-9fc70470e4a9",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 68.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854667+00:00"
+  },
+  {
+    "assessment_id": "5776f1cd-2e23-5a6e-81b7-2868d53e4a4a",
+    "entity_id": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd",
+    "entity_name": "Authorization Enforcement",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0800",
+      "T0886",
+      "T0836",
+      "T0861",
+      "T0838",
+      "T0871",
+      "T0816",
+      "T0868",
+      "T0843",
+      "T0858",
+      "T0845"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0800",
+        "technique_name": "Activate Firmware Update Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ff3f0668-98df-44c1-88c2-711f05720eb8",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--4966e63c-ca05-466d-91f9-41d799a54471",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0836",
+        "technique_name": "Modify Parameter",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e6be2fb4-3815-4e52-8dec-2aed1dc3b7cf",
+        "base_score": 101.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0861",
+        "technique_name": "Point & Tag Identification",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--243ad7b2-546c-4bf2-a3c0-1438b13e197d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0838",
+        "technique_name": "Modify Alarm Settings",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6b5d2643-b399-43aa-8ab1-7557a0446b07",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0871",
+        "technique_name": "Execution through API",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--754521fc-4306-4daa-831b-6b6fb45847e2",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6b5fd6d8-ef70-4896-b1a4-7b6c29c3a0d4",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0868",
+        "technique_name": "Detect Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b8f6d6a8-e668-4596-8ec2-41c5d1bd211d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0843",
+        "technique_name": "Program Download",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a7caa7f2-cfb9-4fc9-ae8d-49349b6c260f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0858",
+        "technique_name": "Change Operating Mode",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--eeeff03f-7436-4f76-8591-42075e6647d4",
+        "base_score": 62.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0845",
+        "technique_name": "Program Upload",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5ae1cf3a-2603-4bf9-ace3-5b1ee5d8d757",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 91.4,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854713+00:00"
+  },
+  {
+    "assessment_id": "127ab5d7-9b8f-5048-8b39-acdf238a1414",
+    "entity_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48",
+    "entity_name": "User Account Management",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0838",
+      "T0822",
+      "T0886",
+      "T0881",
+      "T0859",
+      "T0811"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0838",
+        "technique_name": "Modify Alarm Settings",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7fdaa9be-aecf-459f-b028-7c35dc8b6451",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a7fbe555-a61b-4b93-bfb2-8e0dd0d6323e",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ae10e97a-90ac-498b-8601-01081dc4af8b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0881",
+        "technique_name": "Service Stop",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--01b4a92f-da42-4dfa-8d59-53709b65940e",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--1fc147bd-d6ab-4beb-908b-0fbe8e125b76",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0811",
+        "technique_name": "Data from Information Repositories",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b9632b4d-43c3-4bfa-88e0-629245acb8eb",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 86.33333333333333,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854816+00:00"
+  },
+  {
+    "assessment_id": "5ca2aa84-2048-56e3-b6ca-2bfeda58646a",
+    "entity_id": "course-of-action--f0f5c87a-a58d-440a-b3b5-ca679d98c6dd",
+    "entity_name": "Redundancy of Service",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0813",
+      "T0827",
+      "T0829",
+      "T0826",
+      "T0815"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0813",
+        "technique_name": "Denial of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--99ec0a8e-4a4f-427c-89db-163e4b206021",
+        "base_score": 57.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0827",
+        "technique_name": "Loss of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--7041d8e5-3b74-402a-86b3-fd59def80632",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0829",
+        "technique_name": "Loss of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--8ecf5eac-7767-411b-b54a-b374ea51b9e9",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0826",
+        "technique_name": "Loss of Availability",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--afb0b60e-e604-4b96-abb9-57fdce4e5108",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0815",
+        "technique_name": "Denial of View",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--e852e64c-b5e0-4e7f-a189-bbc7aa7932c7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 57.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854884+00:00"
+  },
+  {
+    "assessment_id": "e0bf411f-ea5b-51b9-9f8e-58bcfaa6e3dd",
+    "entity_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971",
+    "entity_name": "Restrict File and Directory Permissions",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0882",
+      "T0881",
+      "T0809",
+      "T0811",
+      "T0873",
+      "T0872",
+      "T0849"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0882",
+        "technique_name": "Theft of Operational Information",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2e5f338d-92c4-4647-8fef-7c901ff774f5",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0881",
+        "technique_name": "Service Stop",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6833d534-9cbb-4b9f-85b6-93d3d2d6faca",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0809",
+        "technique_name": "Data Destruction",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--21b6ec9c-8779-49db-bf19-90e81893a6e4",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0811",
+        "technique_name": "Data from Information Repositories",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--86f1655a-db46-4d49-9051-6653da83eb13",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0873",
+        "technique_name": "Project File Infection",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--42ab7d24-8286-4a7a-8cd7-02e54a80e13f",
+        "base_score": 110.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0872",
+        "technique_name": "Indicator Removal on Host",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--92d1fd4f-6cc7-4db5-82f8-f8caa5ff59f0",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0849",
+        "technique_name": "Masquerading",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f703f8b2-b6b9-41f3-a551-6bb3647c45cc",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 87.8,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.854944+00:00"
+  },
+  {
+    "assessment_id": "5bac9ca2-0cd8-5b3e-8c20-87d5f803e789",
+    "entity_id": "course-of-action--facb8840-ebe7-49f1-b464-8ef6c8131e21",
+    "entity_name": "Software Configuration",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 0,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855023+00:00"
+  },
+  {
+    "assessment_id": "e0bcaede-8743-5b11-ad2e-cf6663737418",
+    "entity_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7",
+    "entity_name": "Antivirus/Antimalware",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0865",
+      "T0863",
+      "T0864"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--bda03e8d-5e06-4470-b786-11b11c7c97c7",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0863",
+        "technique_name": "User Execution",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d3c94120-e6b5-4bd2-88f0-9c73f76b0104",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0864",
+        "technique_name": "Transient Cyber Asset",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--6c15ec9f-2b48-419c-adc1-f989833f6187",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855046+00:00"
+  },
+  {
+    "assessment_id": "3a4d021a-8642-5a9e-9351-7d7c06d692c3",
+    "entity_id": "course-of-action--fce6866f-9a87-4d3e-a73c-f02d8937fe0e",
+    "entity_name": "Minimize Wireless Signal Propagation",
+    "entity_type": "course-of-action",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0887",
+      "T0860"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0887",
+        "technique_name": "Wireless Sniffing",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2f6b635b-1441-4ef0-9289-1ed6b9098d4a",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0860",
+        "technique_name": "Wireless Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b2e10e48-8bd9-472a-9c6f-1d38650e8df1",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 102.33333333333333,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855091+00:00"
+  }
+]

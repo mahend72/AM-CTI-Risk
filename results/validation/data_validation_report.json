@@ -1,0 +1,284 @@
+[
+  {
+    "severity": "ERROR",
+    "record": "configs/scoring.yaml:severity_buckets[34]",
+    "reason": "Malformed or unknown technique identifier: matches no attack-pattern external_id in the loaded STIX bundle.",
+    "original_value": "T08362",
+    "suggested_action": "Confirm with the original author whether this is a typo (see docs/LEGACY_BEHAVIOUR.md \u00a72 / METHODOLOGY_DECISIONS.md D-2). Do not auto-correct - the entry is permanently inert and does not affect any current score."
+  },
+  {
+    "severity": "ERROR",
+    "record": "configs/scoring.yaml:severity_buckets[104]",
+    "reason": "Malformed or unknown technique identifier: matches no attack-pattern external_id in the loaded STIX bundle.",
+    "original_value": "T0381",
+    "suggested_action": "Confirm with the original author whether this is a typo (see docs/LEGACY_BEHAVIOUR.md \u00a72 / METHODOLOGY_DECISIONS.md D-2). Do not auto-correct - the entry is permanently inert and does not affect any current score."
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0813",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      10,
+      104
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0879",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      34,
+      62
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0889",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      34,
+      130
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0816",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      62,
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0831",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      62,
+      104
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0800",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      68,
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0839",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      68,
+      105,
+      115,
+      130
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0857",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      68,
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0806",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      87,
+      130
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0867",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      87,
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0885",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      87,
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0887",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      87,
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0856",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      104,
+      130,
+      141
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0830",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      105,
+      115,
+      130
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0840",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "INFO",
+    "record": "severity_buckets:T0873",
+    "reason": "Technique appears in multiple severity buckets; find_severity averages across all matching buckets by design (see docs/METHODOLOGY.md 'Factor: Severity'). Not a defect.",
+    "original_value": [
+      105,
+      115
+    ],
+    "suggested_action": null
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--23270e54-1d68-4c3b-b763-b25607bcef80",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Role Identification",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--50d3222f-7550-4a3c-94e1-78cb6c81d064",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Data Historian Compromise",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--539d0484-fe95-485a-b654-86991c0d0d00",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Network Service Scanning",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--5f3da2f3-91c8-4d8b-a02f-bf43a11def55",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Serial Connection Enumeration",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--7374ab87-0782-41f8-b415-678c0950bb2a",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Location Identification",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--94f042ae-3033-4a8d-9ec3-26396533a541",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Detect Program State",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--a8cfd474-9358-464f-a169-9c6f099a8e8a",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Change Program State",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--abb0a255-eb9c-48d0-8f5c-874bb84c0e45",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Control Device Identification",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--ae62fe1a-ea1a-479b-8dc0-65d250bd8bc7",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Program Organization Units",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--d614a9cf-18eb-4800-81e4-ab8ddf0baa73",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Engineering Workstation Compromise",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--e0d74479-86d2-465d-bf36-903ebecef43e",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "Modify Control Logic",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "WARNING",
+    "record": "attack-pattern--e2994b6a-122b-4043-b654-7411c5198ec0",
+    "reason": "attack-pattern has no 'mitre-attack' external reference; any relationship targeting it cannot be scored and will be recorded as unscored evidence (see docs/METHODOLOGY_DECISIONS.md D-5).",
+    "original_value": "I/O Module Discovery",
+    "suggested_action": "None required for scoring - the assessor handles this defensively. Investigate upstream data only if this technique was expected to be scorable."
+  },
+  {
+    "severity": "INFO",
+    "record": "Code/find_severity.py.txt:data1 (legacy)",
+    "reason": "Original dict literal contained duplicate keys 34 and 10. Python silently collapsed each to its last-written value at runtime. The collapsed (13-key) table is what the legacy code actually executed against and is preserved exactly in configs/scoring.yaml. See docs/LEGACY_BEHAVIOUR.md \u00a71 / METHODOLOGY_DECISIONS.md D-1.",
+    "original_value": "duplicate keys: 34 (x2), 10 (x3)",
+    "suggested_action": "Documented; no action required; preserved intentionally."
+  },
+  {
+    "severity": "INFO",
+    "record": "risk/impact.py (corrected)",
+    "reason": "Legacy impact_level() raised UnboundLocalError at max_val in {10, 50, 80}. Corrected by making lower bounds inclusive, matching find_severity's already-consistent boundary convention over the same cut-points. Verified to change zero of 93 pre-existing results. See docs/METHODOLOGY_DECISIONS.md D-4.",
+    "original_value": "max_val in {10, 50, 80} -> UnboundLocalError",
+    "suggested_action": "Documented; correction applied; no result impact."
+  }
+]

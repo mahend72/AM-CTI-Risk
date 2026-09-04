@@ -1,0 +1,95 @@
+assessment_id,entity_id,entity_name,entity_type,severity,frequency,likelihood,timeliness,combined_score,impact_level,risk_level,legacy_validated,warning_count
+b8b78094-9b11-58f5-9b5f-cc9ca68b64ba,campaign--65281d3e-b03c-46b8-8cd8-716363ac3cb2,Oldsmar Treatment Plant Intrusion,campaign,3,1,Unknown,0,92.0,Critical,Unknown,False,0
+422a5b50-006d-56a0-aa0b-518eab0a3148,course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea,Application Isolation and Sandboxing,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+f4d5fbf2-a592-5396-a200-5fc6cc231056,course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17,Filter Network Traffic,course-of-action,3,1,Unknown,0,104.0,Critical,Unknown,True,0
+7ca79a50-d8e1-5dd5-9536-351bd64c4acc,course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144,Restrict Web-Based Content,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+f31706ed-e9ab-571a-85d7-6288257edfb1,course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291,Network Segmentation,course-of-action,3,1,Unknown,0,101.5,Critical,Unknown,True,0
+39aff511-b1ee-5792-bcbb-d7e27ec39b22,course-of-action--2ab9fc6d-3cf6-4d7b-85f1-3ad6949233b3,Restrict Library Loading,course-of-action,3,1,Unknown,0,87.0,Critical,Unknown,True,0
+85d80ea3-e812-57c6-9695-43d1be16c1a7,course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722,Active Directory Configuration,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+b74401b5-1a9a-5441-8e4b-aa3fc0c8c24c,course-of-action--3172222b-4983-43f7-8983-753ded4f13bc,Network Intrusion Prevention,course-of-action,3,1,Unknown,0,107.1111111111111,Critical,Unknown,True,0
+b2f8bee5-bdc6-5661-939a-36d0e2c159b1,course-of-action--3222a807-521b-4a1a-aa13-f1cda45734b3,Restrict Registry Permissions,course-of-action,2,1,Unknown,0,68.0,Hazardous,Unknown,True,0
+8a963d88-ad7d-53e9-84e6-921c2c38b2f5,course-of-action--337c4e2a-21a7-4d9a-bfee-9efd6cebf0e5,Data Loss Prevention,course-of-action,3,1,Unknown,0,87.0,Critical,Unknown,True,0
+3562967c-7fc5-5ca7-a982-02165da6e06e,course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3,Access Management,course-of-action,3,1,Unknown,0,92.75,Critical,Unknown,True,0
+de65c731-d26c-56d7-b894-8183e3a29118,course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433,Mitigation Limited or Not Effective,course-of-action,4,1,Unknown,0,133.25,Very Critical,Low,True,0
+931e6829-1ecc-54b0-9dde-2dec1d6f5ccd,course-of-action--49363b74-d506-4342-bd63-320586ebadb9,Exploit Protection,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+1f2ec2eb-3f6c-5e77-92dd-856f85321f68,course-of-action--49b306c1-a046-42c5-a4d2-30f264ada110,Limit Access to Resource Over Network,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+cbb06815-4774-557a-8620-83f29285613e,course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30,Execution Prevention,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+06551554-bd9f-53b8-afa6-8289b5ab8ec2,course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a,Static Network Configuration,course-of-action,4,1,Unknown,0,120.55555555555556,Very Critical,Low,True,0
+7123389e-4c0d-52f4-bbb0-56882b90ed94,course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65,Password Policies,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+cf89715d-a5b6-5e4b-8327-41e67c9ccfc1,course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5,Privileged Account Management,course-of-action,3,1,Unknown,0,105.0,Critical,Unknown,True,0
+48da4559-b0d4-5e3e-83ae-15439b95b6ba,course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0,Human User Authentication,course-of-action,3,1,Unknown,0,94.11904761904762,Critical,Unknown,True,0
+662e612b-18ad-5f53-aa29-8f827adf111e,course-of-action--6a02e38a-9629-40c0-8c7d-e98e3470315c,SSL/TLS Inspection,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+52595f24-9111-596e-a409-0ee647b1d161,course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a,Code Signing,course-of-action,3,1,Unknown,0,98.41666666666667,Critical,Unknown,True,0
+ad1aaa66-8059-57e5-9f1c-6e2655a932c4,course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549,Software Process and Device Authentication,course-of-action,3,1,Unknown,0,100.74074074074073,Critical,Unknown,True,0
+bbe2cc66-ad9a-5e37-bd0a-9929c2f772ae,course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a,Encrypt Network Traffic,course-of-action,3,1,Unknown,0,110.95833333333333,Critical,Unknown,True,0
+bbc78bc3-dfce-50ad-b93a-af0dd92672d8,course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02,Account Use Policies,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+7814b060-c3b7-575f-8e5f-a04fed59c5e9,course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7,Application Developer Guidance,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+eced015c-67fc-5dc1-bdcf-7c743e400d84,course-of-action--8ac1d6e1-b07f-476a-9732-84984ebc2405,Boot Integrity,course-of-action,3,1,Unknown,0,100.25,Critical,Unknown,True,0
+74b3ac3e-fe14-5281-99bc-6c3950955efb,course-of-action--8bc4a54e-810c-4600-8b6c-08fa8413a401,Mechanical Protection Layers,course-of-action,1,1,Unknown,0,48.0,Certain Hazard,Unknown,True,0
+58c0bab8-1b81-55d5-bd9c-77909b978a1f,course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e,Update Software,course-of-action,3,1,Unknown,0,82.0,Critical,Unknown,True,0
+6c4eac2d-75a9-570d-af4d-2aad1fda009a,course-of-action--98aa0d61-fc9d-4b2d-8f18-b25d03549f53,Watchdog Timers,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+d6f94d65-d714-5b7e-8e94-d505d7ab4940,course-of-action--99c746d7-a08a-4169-94f9-b8c0dad716fa,Operational Information Confidentiality,course-of-action,3,1,Unknown,0,87.0,Critical,Unknown,True,0
+3b72ec78-a128-5407-954c-7dd69f197494,course-of-action--9a945a29-5233-4422-a9e3-3e957b0e8bce,Operating System Configuration,course-of-action,2,1,Unknown,0,62.0,Hazardous,Unknown,True,0
+529bbe48-e0c1-55ab-a1f7-0d1845c4895d,course-of-action--9e3adcad-0b8f-4ecc-a2f3-06f607f53bf0,Limit Hardware Installation,course-of-action,2,1,Unknown,0,62.0,Hazardous,Unknown,True,0
+1bee929c-2db0-557b-807e-2352f46ea17e,course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc,Encrypt Sensitive Information,course-of-action,3,1,Unknown,0,96.9,Critical,Unknown,True,0
+92aef636-59c3-578b-a213-f2fe2668288c,course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a,Network Allowlists,course-of-action,3,1,Unknown,0,94.2,Critical,Unknown,True,0
+02c74739-c11b-5020-9d8e-6599c657ac70,course-of-action--ac8f3492-7fbb-4a0a-b0b4-b75ec676136c,Supply Chain Management,course-of-action,2,1,Unknown,0,68.0,Hazardous,Unknown,True,0
+a0560cff-463a-5c6c-bfde-6e4d72fabfdf,course-of-action--ad12819e-3211-4291-b360-069f280cff0a,Data Backup,course-of-action,2,1,Unknown,0,75.66666666666667,Hazardous,Unknown,True,0
+289971af-1720-590a-82e4-102bba701e5b,course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e,Out-of-Band Communications Channel,course-of-action,3,1,Unknown,0,90.16666666666667,Critical,Unknown,True,0
+27703c54-275a-569a-82f9-8df99fd167a6,course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697,Audit,course-of-action,3,1,Unknown,0,98.21666666666667,Critical,Unknown,True,0
+a181ea31-a1ed-5ad3-ab10-2a519e67420b,course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac,Communication Authenticity,course-of-action,3,1,Unknown,0,97.14583333333333,Critical,Unknown,True,0
+564ba86a-d8a2-5478-a31e-64885e396083,course-of-action--d0909119-2f71-4923-87db-b649881672d7,Disable or Remove Feature or Program,course-of-action,3,1,Unknown,0,93.75,Critical,Unknown,True,0
+4edcc5e3-c1d1-5402-a586-143c1d60f8c6,course-of-action--d48b79b2-076d-483e-949c-0d38aa347499,Threat Intelligence Program,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+cb64a2ba-096e-52da-84f0-7032e216d417,course-of-action--da44255d-85c5-492c-baf3-ee823d44f848,Safety Instrumented Systems,course-of-action,1,1,Unknown,0,48.0,Certain Hazard,Unknown,True,0
+674d19c7-e153-5d1b-8214-c4ad42d088c5,course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba,User Training,course-of-action,3,1,Unknown,0,87.0,Critical,Unknown,True,0
+3dbae5eb-d2c1-5bcb-91ff-37dad56c2436,course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd,Multi-factor Authentication,course-of-action,4,1,Unknown,0,141.0,Very Critical,Low,True,0
+04d8aad9-627e-502b-aa08-c1817c9ea7ce,course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037,Vulnerability Scanning,course-of-action,2,1,Unknown,0,68.0,Hazardous,Unknown,True,0
+5776f1cd-2e23-5a6e-81b7-2868d53e4a4a,course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd,Authorization Enforcement,course-of-action,3,1,Unknown,0,91.4,Critical,Unknown,True,0
+127ab5d7-9b8f-5048-8b39-acdf238a1414,course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48,User Account Management,course-of-action,3,1,Unknown,0,86.33333333333333,Critical,Unknown,True,0
+5ca2aa84-2048-56e3-b6ca-2bfeda58646a,course-of-action--f0f5c87a-a58d-440a-b3b5-ca679d98c6dd,Redundancy of Service,course-of-action,2,1,Unknown,0,57.0,Hazardous,Unknown,True,0
+e0bf411f-ea5b-51b9-9f8e-58bcfaa6e3dd,course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971,Restrict File and Directory Permissions,course-of-action,3,1,Unknown,0,87.8,Critical,Unknown,True,0
+5bac9ca2-0cd8-5b3e-8c20-87d5f803e789,course-of-action--facb8840-ebe7-49f1-b464-8ef6c8131e21,Software Configuration,course-of-action,0,0,Unknown,0,0.0,Not Hazard,Unknown,True,0
+e0bcaede-8743-5b11-ad2e-cf6663737418,course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7,Antivirus/Antimalware,course-of-action,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+3a4d021a-8642-5a9e-9351-7d7c06d692c3,course-of-action--fce6866f-9a87-4d3e-a73c-f02d8937fe0e,Minimize Wireless Signal Propagation,course-of-action,3,1,Unknown,0,102.33333333333333,Critical,Unknown,True,0
+e3ba709d-ae4c-5368-b0ea-8b70e32a575f,intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3,HEXANE,intrusion-set,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+4335d1fc-333b-5f44-a092-f46a0bbbc03e,intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192,Sandworm Team,intrusion-set,3,4,Unknown,0,99.08333333333333,Critical,Unknown,True,0
+615f500e-95f7-5fa9-b1d2-96ef81e876c1,intrusion-set--76d59913-1d24-4992-a8ac-05a3eb093f71,Dragonfly 2.0,intrusion-set,3,2,Unknown,0,86.08333333333333,Critical,Unknown,True,0
+c1e40a5e-6fab-5a56-a2c1-6d2e33089109,intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d,OilRig,intrusion-set,0,3,Unknown,0,0.0,Not Hazard,Unknown,True,0
+222604b7-1f3e-5c53-8dad-6fb488b9c58d,intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4,TEMP.Veles,intrusion-set,2,2,Unknown,0,68.0,Hazardous,Unknown,True,0
+4c601101-667f-5295-be74-630a12e53ffb,intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb,FIN6,intrusion-set,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+9ba8ad58-c3ed-5d80-b3ae-e79c8f77a29c,intrusion-set--190242d7-73fc-4738-af68-20162f7a5aae,ALLANITE,intrusion-set,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+ba5b160e-bb42-5c8d-be23-e0e841580612,intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1,Dragonfly,intrusion-set,2,4,Unknown,0,68.0,Hazardous,Unknown,True,0
+a92f3fff-0d75-586f-950e-777fa6a8c84c,intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc,FIN7,intrusion-set,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+0218200d-6575-5d50-83ac-5d6410afd6af,intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133,GOLD SOUTHFIELD,intrusion-set,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+5f91a686-63db-5dbf-89e9-d6b30791f58a,intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7,Wizard Spider,intrusion-set,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+70273730-63d8-5e6c-843f-78aa4fb1b3c1,intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a,Lazarus Group,intrusion-set,0,3,Unknown,0,0.0,Not Hazard,Unknown,True,0
+82f33b00-8080-514a-a929-6b7b1a25ed26,intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f,APT33,intrusion-set,0,2,Unknown,0,0.0,Not Hazard,Unknown,True,0
+94089ed7-4250-5fe1-a8b7-af6281386127,intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340,APT38,intrusion-set,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+ea83da1b-7014-5ef0-a02c-f1f1943bc01a,intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6,APT34,intrusion-set,0,0,Unknown,0,0.0,Not Hazard,Unknown,True,0
+a21b6ef1-263a-5810-9674-a5b306967756,malware--00e7d565-9883-4ee5-b642-8fd17fd6a3f5,EKANS,malware,3,2,Unknown,0,89.0,Critical,Unknown,True,0
+39168058-bd28-59f1-91b2-7448a299ea7f,malware--083bb47b-02c8-4423-81a2-f9ef58572974,Backdoor.Oldrea,malware,2,1,Unknown,0,68.0,Hazardous,Unknown,True,0
+96e98b3f-7c97-5f68-9546-6623dd9690c4,malware--088f1d6e-0783-47c6-9923-9c79b2af43d4,Stuxnet,malware,3,2,Unknown,0,109.51282051282053,Critical,Unknown,True,0
+6b3f924e-79b4-5ece-9bf8-2b3ffe9cea4b,malware--1d8dccb3-e779-4702-aeb1-6627a22cc585,Industroyer,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+ef60ff99-08aa-5d99-a5d5-6e2e0a694398,malware--242622ca-3903-43d5-8aa0-3bbdaa3020ec,Bad Rabbit,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+f2a1c1b5-0207-5141-b60a-8a86a4f1a23f,malware--2eaa5319-5e1e-4dd7-bbc4-566fced3964a,Bad Rabbit,malware,3,1,Unknown,0,102.33333333333333,Critical,Unknown,True,0
+1790dedf-95a5-5bb9-96c7-28780d0b7e70,malware--496bff4d-0700-4b28-b06f-f30a63002be7,Stuxnet,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+306a2d5c-e038-5112-94ca-5bd21e34afe1,malware--49c04994-1035-4b58-89b7-cf8956e3b423,Conficker,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+44f0a7ea-4f0e-5182-843d-04bb85a31688,malware--4dcff507-5af8-47ce-964a-8d9569e9ccfe,PLC-Blaster,malware,3,1,Unknown,0,95.0,Critical,Unknown,True,0
+3e1c1d0f-cf4a-502d-8b14-289ae3ada806,malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4,BlackEnergy,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+43bcb8d0-0d45-596b-9be0-7c2271310bf2,malware--5719af9d-6b16-46f9-9b28-fb019541ddbb,NotPetya,malware,3,3,Unknown,0,102.33333333333333,Critical,Unknown,True,0
+c30c206f-9923-5640-9976-9ad6aebcd785,malware--58eddbaf-7416-419a-ad7b-e65b9d4c3b55,Conficker,malware,2,2,Unknown,0,62.0,Hazardous,Unknown,True,0
+44128dae-0760-5d03-be89-2aaf6c3f058e,malware--5af7a825-2d9f-400d-931a-e00eb9e27f48,LockerGoga,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+47066c6c-358f-5d5c-8c8f-09a7ebca55d5,malware--6108f800-10b8-4090-944e-be579f01263d,VPNFilter,malware,4,1,Unknown,0,128.83333333333334,Very Critical,Low,True,0
+1b1f58de-3b8d-5bc4-8151-baa5f15085e5,malware--68dca94f-c11d-421e-9287-7c501108e18c,Duqu,malware,3,1,Unknown,0,87.0,Critical,Unknown,True,0
+639ca1c1-28c6-591d-87eb-128d226f566d,malware--736a3b71-eccc-48b7-b5ed-adb2b74ca830,Killdisk,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+4ae602d3-492e-5e59-a2d3-31263b45adaa,malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661,WannaCry,malware,3,2,Unknown,0,102.33333333333333,Critical,Unknown,True,0
+c247878c-f022-54df-89b0-69f62231c82b,malware--80099a91-4c86-4bea-9ccb-dac55d61960e,Triton,malware,3,2,Unknown,0,86.83333333333333,Critical,Unknown,True,0
+f222a2ec-2d9e-5772-b962-6226213659f9,malware--89ab0ca5-f7e0-4d16-bf2a-17d68117fa4b,BlackEnergy 3,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+4a0a593f-bd6b-5819-8ce4-12bcff9e01cd,malware--9e3c9495-5fbd-4676-b3ac-ddecceb57b8f,EKANS,malware,0,1,Unknown,0,0.0,Not Hazard,Unknown,True,0
+d7e43eff-4b81-56b6-a8d5-597bc12dd2a7,malware--a020a61c-423f-4195-8c46-ba1d21abba37,Ryuk,malware,0,2,Unknown,0,0.0,Not Hazard,Unknown,True,0
+e1e0caf0-0312-5c63-99f4-6d76322f5125,malware--a4a98eab-b691-45d9-8c48-869ef8fefd57,ACAD/Medre.A,malware,3,1,Unknown,0,87.0,Critical,Unknown,True,0
+f5725a57-8131-5348-83b2-ffd007582c3a,malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5,REvil,malware,2,3,Unknown,0,77.5,Hazardous,Unknown,True,0
+95115b6b-f3df-5def-8bfc-910ff621eb4c,malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b,INCONTROLLER,malware,3,2,Unknown,0,98.66666666666666,Critical,Unknown,True,0
+713d980c-fd36-54b3-922a-99bb3d1585ee,malware--e221eb77-1502-4129-af1d-fe1ad55e7ec6,KillDisk,malware,2,1,Unknown,0,77.5,Hazardous,Unknown,True,0
+e1f486a9-0bb6-5320-829d-1074d8faddc1,malware--e401d4fe-f0c9-44f0-98e6-f93487678808,Industroyer,malware,3,2,Unknown,0,88.4090909090909,Critical,Unknown,True,0
+49f7946a-c702-501e-a1c8-e52979064495,malware--ff6840c9-4c87-4d07-bbb6-9f50aa33d498,Flame,malware,3,2,Unknown,0,87.0,Critical,Unknown,True,0

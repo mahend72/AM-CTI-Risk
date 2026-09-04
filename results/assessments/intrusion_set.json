@@ -1,0 +1,2079 @@
+[
+  {
+    "assessment_id": "e3ba709d-ae4c-5368-b0ea-8b70e32a575f",
+    "entity_id": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+    "entity_name": "HEXANE",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855243+00:00"
+  },
+  {
+    "assessment_id": "4335d1fc-333b-5f44-a092-f46a0bbbc03e",
+    "entity_id": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",
+    "entity_name": "Sandworm Team",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0803",
+      "T0865",
+      "T0807",
+      "T0867",
+      "T0823",
+      "T0859",
+      "T0853",
+      "T0816",
+      "T0822",
+      "T0819",
+      "T0804",
+      "T0886",
+      "T0849",
+      "T0884",
+      "T0857",
+      "T0855"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0803",
+        "technique_name": "Block Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--dc15440d-6683-435a-8c87-64daea29bcaa",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--10e3816e-8ee2-4dcf-81b7-a22ec0b6fda5",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0807",
+        "technique_name": "Command-Line Interface",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--26d68f5d-6ee5-4d98-b175-943366ccc038",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0867",
+        "technique_name": "Lateral Tool Transfer",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--98d447f4-397b-43e7-9740-c2e5ea6b1714",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0823",
+        "technique_name": "Graphical User Interface",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--84e535be-960a-450a-91f9-4dc8c5e3f69d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--95b12e1a-7f21-4fa0-9b2a-c96c7c270625",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0853",
+        "technique_name": "Scripting",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c848b096-3703-4962-b8a2-57682e26f31b",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0816",
+        "technique_name": "Device Restart/Shutdown",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2c6f9c9e-efa9-4a87-aadf-64b2aeeaa09a",
+        "base_score": 94.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0822",
+        "technique_name": "External Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--32dbed4e-4dbe-4872-a013-c96111ed102e",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0819",
+        "technique_name": "Exploit Public-Facing Application",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--a846dbe5-9ef3-4fb6-93d5-f764671a75c8",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0804",
+        "technique_name": "Block Reporting Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--41ff63a3-ddb9-47fb-8d92-bed74ed0d41d",
+        "base_score": 104.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--9fa31b58-d4f3-43e4-b5b2-cafcd0c6a99d",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0849",
+        "technique_name": "Masquerading",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b5f94430-be03-43ed-97e1-0424d783073e",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0884",
+        "technique_name": "Connection Proxy",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--eb1e05ef-58df-4c6d-acd7-5cc63ff7f44f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0857",
+        "technique_name": "System Firmware",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b2d4989c-e2d1-40c4-b1d8-07834a71f26f",
+        "base_score": 96.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0855",
+        "technique_name": "Unauthorized Command Message",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--641813ea-66a9-4949-848f-db83420aac39",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 4,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 99.08333333333333,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+        "course_of_action_name": "Application Isolation and Sandboxing",
+        "shared_technique_ids": [
+          "T0819",
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",
+        "course_of_action_name": "Filter Network Traffic",
+        "shared_technique_ids": [
+          "T0816",
+          "T0855",
+          "T0857",
+          "T0859",
+          "T0884",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",
+        "course_of_action_name": "Network Segmentation",
+        "shared_technique_ids": [
+          "T0816",
+          "T0819",
+          "T0822",
+          "T0855",
+          "T0857",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722",
+        "course_of_action_name": "Active Directory Configuration",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
+        "course_of_action_name": "Network Intrusion Prevention",
+        "shared_technique_ids": [
+          "T0865",
+          "T0867",
+          "T0884"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
+        "course_of_action_name": "Access Management",
+        "shared_technique_ids": [
+          "T0816",
+          "T0857",
+          "T0859",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433",
+        "course_of_action_name": "Mitigation Limited or Not Effective",
+        "shared_technique_ids": [
+          "T0823"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9",
+        "course_of_action_name": "Exploit Protection",
+        "shared_technique_ids": [
+          "T0819"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--49b306c1-a046-42c5-a4d2-30f264ada110",
+        "course_of_action_name": "Limit Access to Resource Over Network",
+        "shared_technique_ids": [
+          "T0822"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30",
+        "course_of_action_name": "Execution Prevention",
+        "shared_technique_ids": [
+          "T0807",
+          "T0849",
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a",
+        "course_of_action_name": "Static Network Configuration",
+        "shared_technique_ids": [
+          "T0803",
+          "T0804"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",
+        "course_of_action_name": "Password Policies",
+        "shared_technique_ids": [
+          "T0822",
+          "T0859",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5",
+        "course_of_action_name": "Privileged Account Management",
+        "shared_technique_ids": [
+          "T0819",
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0",
+        "course_of_action_name": "Human User Authentication",
+        "shared_technique_ids": [
+          "T0816",
+          "T0857",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--6a02e38a-9629-40c0-8c7d-e98e3470315c",
+        "course_of_action_name": "SSL/TLS Inspection",
+        "shared_technique_ids": [
+          "T0884"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",
+        "course_of_action_name": "Code Signing",
+        "shared_technique_ids": [
+          "T0849",
+          "T0857"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549",
+        "course_of_action_name": "Software Process and Device Authentication",
+        "shared_technique_ids": [
+          "T0816",
+          "T0855",
+          "T0857",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a",
+        "course_of_action_name": "Encrypt Network Traffic",
+        "shared_technique_ids": [
+          "T0857"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02",
+        "course_of_action_name": "Account Use Policies",
+        "shared_technique_ids": [
+          "T0822",
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7",
+        "course_of_action_name": "Application Developer Guidance",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--8ac1d6e1-b07f-476a-9732-84984ebc2405",
+        "course_of_action_name": "Boot Integrity",
+        "shared_technique_ids": [
+          "T0857"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",
+        "course_of_action_name": "Update Software",
+        "shared_technique_ids": [
+          "T0819",
+          "T0857"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc",
+        "course_of_action_name": "Encrypt Sensitive Information",
+        "shared_technique_ids": [
+          "T0857"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",
+        "course_of_action_name": "Network Allowlists",
+        "shared_technique_ids": [
+          "T0803",
+          "T0804",
+          "T0816",
+          "T0855",
+          "T0857",
+          "T0884",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e",
+        "course_of_action_name": "Out-of-Band Communications Channel",
+        "shared_technique_ids": [
+          "T0803",
+          "T0804"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+        "course_of_action_name": "Audit",
+        "shared_technique_ids": [
+          "T0857",
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac",
+        "course_of_action_name": "Communication Authenticity",
+        "shared_technique_ids": [
+          "T0816",
+          "T0855",
+          "T0857"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7",
+        "course_of_action_name": "Disable or Remove Feature or Program",
+        "shared_technique_ids": [
+          "T0807",
+          "T0816",
+          "T0822",
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba",
+        "course_of_action_name": "User Training",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd",
+        "course_of_action_name": "Multi-factor Authentication",
+        "shared_technique_ids": [
+          "T0822",
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037",
+        "course_of_action_name": "Vulnerability Scanning",
+        "shared_technique_ids": [
+          "T0819"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd",
+        "course_of_action_name": "Authorization Enforcement",
+        "shared_technique_ids": [
+          "T0816",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48",
+        "course_of_action_name": "User Account Management",
+        "shared_technique_ids": [
+          "T0822",
+          "T0859",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971",
+        "course_of_action_name": "Restrict File and Directory Permissions",
+        "shared_technique_ids": [
+          "T0849"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7",
+        "course_of_action_name": "Antivirus/Antimalware",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855286+00:00"
+  },
+  {
+    "assessment_id": "615f500e-95f7-5fa9-b1d2-96ef81e876c1",
+    "entity_id": "intrusion-set--76d59913-1d24-4992-a8ac-05a3eb093f71",
+    "entity_name": "Dragonfly 2.0",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0882",
+      "T0817",
+      "T0853",
+      "T0811",
+      "T0859",
+      "T0852",
+      "T0865",
+      "T0862",
+      "T0872",
+      "T0885"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0882",
+        "technique_name": "Theft of Operational Information",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--58aa90a7-886b-4f37-ab16-a0beb0e64877",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--55fe102a-d32b-4a73-85b1-14a02d0e552f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0853",
+        "technique_name": "Scripting",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--46edf5ba-ebd3-4976-9cdc-1276ba253c98",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0811",
+        "technique_name": "Data from Information Repositories",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--aaffd26a-728d-42a0-9d1f-423231c55f3e",
+        "base_score": 87.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d464d443-6298-47eb-b767-8f1136f6b6b5",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0852",
+        "technique_name": "Screen Capture",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2916cd9c-32d5-463a-a83b-448ef7720192",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--17525989-242e-4960-b59d-9ea62172263f",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--86076ad1-8037-4dd0-88e7-9c40ec00af4a",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0872",
+        "technique_name": "Indicator Removal on Host",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3168a905-f398-403f-9345-de5893de1326",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0885",
+        "technique_name": "Commonly Used Port",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f6b1e463-5db5-40c7-8a6d-5f70194fdadd",
+        "base_score": 102.33333333333333,
+        "severity_level": 3,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 2,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 86.08333333333333,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+        "course_of_action_name": "Application Isolation and Sandboxing",
+        "shared_technique_ids": [
+          "T0817",
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",
+        "course_of_action_name": "Filter Network Traffic",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0817",
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",
+        "course_of_action_name": "Network Segmentation",
+        "shared_technique_ids": [
+          "T0885"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722",
+        "course_of_action_name": "Active Directory Configuration",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
+        "course_of_action_name": "Network Intrusion Prevention",
+        "shared_technique_ids": [
+          "T0865",
+          "T0885"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--337c4e2a-21a7-4d9a-bfee-9efd6cebf0e5",
+        "course_of_action_name": "Data Loss Prevention",
+        "shared_technique_ids": [
+          "T0882"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
+        "course_of_action_name": "Access Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433",
+        "course_of_action_name": "Mitigation Limited or Not Effective",
+        "shared_technique_ids": [
+          "T0852"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9",
+        "course_of_action_name": "Exploit Protection",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30",
+        "course_of_action_name": "Execution Prevention",
+        "shared_technique_ids": [
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",
+        "course_of_action_name": "Password Policies",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5",
+        "course_of_action_name": "Privileged Account Management",
+        "shared_technique_ids": [
+          "T0811",
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0",
+        "course_of_action_name": "Human User Authentication",
+        "shared_technique_ids": [
+          "T0885"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",
+        "course_of_action_name": "Code Signing",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02",
+        "course_of_action_name": "Account Use Policies",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7",
+        "course_of_action_name": "Application Developer Guidance",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",
+        "course_of_action_name": "Update Software",
+        "shared_technique_ids": [
+          "T0817",
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--99c746d7-a08a-4169-94f9-b8c0dad716fa",
+        "course_of_action_name": "Operational Information Confidentiality",
+        "shared_technique_ids": [
+          "T0882"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc",
+        "course_of_action_name": "Encrypt Sensitive Information",
+        "shared_technique_ids": [
+          "T0811",
+          "T0882"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ac8f3492-7fbb-4a0a-b0b4-b75ec676136c",
+        "course_of_action_name": "Supply Chain Management",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+        "course_of_action_name": "Audit",
+        "shared_technique_ids": [
+          "T0811",
+          "T0859",
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7",
+        "course_of_action_name": "Disable or Remove Feature or Program",
+        "shared_technique_ids": [
+          "T0853",
+          "T0885"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba",
+        "course_of_action_name": "User Training",
+        "shared_technique_ids": [
+          "T0811",
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd",
+        "course_of_action_name": "Multi-factor Authentication",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037",
+        "course_of_action_name": "Vulnerability Scanning",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48",
+        "course_of_action_name": "User Account Management",
+        "shared_technique_ids": [
+          "T0811",
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971",
+        "course_of_action_name": "Restrict File and Directory Permissions",
+        "shared_technique_ids": [
+          "T0811",
+          "T0872",
+          "T0882"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7",
+        "course_of_action_name": "Antivirus/Antimalware",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855437+00:00"
+  },
+  {
+    "assessment_id": "c1e40a5e-6fab-5a56-a2c1-6d2e33089109",
+    "entity_id": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+    "entity_name": "OilRig",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0865",
+      "T0869",
+      "T0859",
+      "T0853",
+      "T0817"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--3618a010-b94b-4974-b1be-7630d5c853c1",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0869",
+        "technique_name": "Standard Application Layer Protocol",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--d2dc57eb-5be2-4f9c-a4f7-18d2085ff412",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f65a8ce8-90fa-4d92-a0dc-3ee544c541fe",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0853",
+        "technique_name": "Scripting",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c4e8dd42-9855-4a36-b915-dc7e1a91e235",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--f8318ac4-8ed0-478d-be87-faa2c9d8a740",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 3,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+        "course_of_action_name": "Application Isolation and Sandboxing",
+        "shared_technique_ids": [
+          "T0817",
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",
+        "course_of_action_name": "Filter Network Traffic",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0817",
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",
+        "course_of_action_name": "Network Segmentation",
+        "shared_technique_ids": [
+          "T0869"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722",
+        "course_of_action_name": "Active Directory Configuration",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
+        "course_of_action_name": "Network Intrusion Prevention",
+        "shared_technique_ids": [
+          "T0865",
+          "T0869"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
+        "course_of_action_name": "Access Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9",
+        "course_of_action_name": "Exploit Protection",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30",
+        "course_of_action_name": "Execution Prevention",
+        "shared_technique_ids": [
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",
+        "course_of_action_name": "Password Policies",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5",
+        "course_of_action_name": "Privileged Account Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02",
+        "course_of_action_name": "Account Use Policies",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7",
+        "course_of_action_name": "Application Developer Guidance",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",
+        "course_of_action_name": "Update Software",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",
+        "course_of_action_name": "Network Allowlists",
+        "shared_technique_ids": [
+          "T0869"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+        "course_of_action_name": "Audit",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7",
+        "course_of_action_name": "Disable or Remove Feature or Program",
+        "shared_technique_ids": [
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba",
+        "course_of_action_name": "User Training",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd",
+        "course_of_action_name": "Multi-factor Authentication",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48",
+        "course_of_action_name": "User Account Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7",
+        "course_of_action_name": "Antivirus/Antimalware",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855537+00:00"
+  },
+  {
+    "assessment_id": "222604b7-1f3e-5c53-8dad-6fb488b9c58d",
+    "entity_id": "intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4",
+    "entity_name": "TEMP.Veles",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0817",
+      "T0862",
+      "T0886",
+      "T0859"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b3862aa6-7bd0-46a4-83b6-bb687bb7caa6",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--b343e131-e448-46c6-815b-b86e4bd6d638",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--71c81024-ea36-4853-940a-cd9d4cbcabed",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--92634d06-42e5-407f-bcb7-cafb1ddeafce",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 2,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 68.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+        "course_of_action_name": "Application Isolation and Sandboxing",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",
+        "course_of_action_name": "Filter Network Traffic",
+        "shared_technique_ids": [
+          "T0859",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",
+        "course_of_action_name": "Network Segmentation",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722",
+        "course_of_action_name": "Active Directory Configuration",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
+        "course_of_action_name": "Access Management",
+        "shared_technique_ids": [
+          "T0859",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9",
+        "course_of_action_name": "Exploit Protection",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",
+        "course_of_action_name": "Password Policies",
+        "shared_technique_ids": [
+          "T0859",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5",
+        "course_of_action_name": "Privileged Account Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0",
+        "course_of_action_name": "Human User Authentication",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",
+        "course_of_action_name": "Code Signing",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549",
+        "course_of_action_name": "Software Process and Device Authentication",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02",
+        "course_of_action_name": "Account Use Policies",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7",
+        "course_of_action_name": "Application Developer Guidance",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",
+        "course_of_action_name": "Update Software",
+        "shared_technique_ids": [
+          "T0817",
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",
+        "course_of_action_name": "Network Allowlists",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ac8f3492-7fbb-4a0a-b0b4-b75ec676136c",
+        "course_of_action_name": "Supply Chain Management",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+        "course_of_action_name": "Audit",
+        "shared_technique_ids": [
+          "T0859",
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd",
+        "course_of_action_name": "Multi-factor Authentication",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037",
+        "course_of_action_name": "Vulnerability Scanning",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd",
+        "course_of_action_name": "Authorization Enforcement",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48",
+        "course_of_action_name": "User Account Management",
+        "shared_technique_ids": [
+          "T0859",
+          "T0886"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855597+00:00"
+  },
+  {
+    "assessment_id": "4c601101-667f-5295-be74-630a12e53ffb",
+    "entity_id": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+    "entity_name": "FIN6",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855661+00:00"
+  },
+  {
+    "assessment_id": "9ba8ad58-c3ed-5d80-b3ae-e79c8f77a29c",
+    "entity_id": "intrusion-set--190242d7-73fc-4738-af68-20162f7a5aae",
+    "entity_name": "ALLANITE",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0852",
+      "T0865",
+      "T0817",
+      "T0859"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0852",
+        "technique_name": "Screen Capture",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--5424e327-396f-4b07-94a3-408ffc915686",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--679e7b8d-57d7-4c1d-8f42-1496606ea666",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--fc4803cb-d6bf-4674-bf40-d4b0997824ba",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0859",
+        "technique_name": "Valid Accounts",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0eb112f6-c1cb-4843-93f5-f668aa0e9bd8",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+        "course_of_action_name": "Application Isolation and Sandboxing",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",
+        "course_of_action_name": "Filter Network Traffic",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0817",
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722",
+        "course_of_action_name": "Active Directory Configuration",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
+        "course_of_action_name": "Network Intrusion Prevention",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
+        "course_of_action_name": "Access Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433",
+        "course_of_action_name": "Mitigation Limited or Not Effective",
+        "shared_technique_ids": [
+          "T0852"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9",
+        "course_of_action_name": "Exploit Protection",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",
+        "course_of_action_name": "Password Policies",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5",
+        "course_of_action_name": "Privileged Account Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02",
+        "course_of_action_name": "Account Use Policies",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7",
+        "course_of_action_name": "Application Developer Guidance",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",
+        "course_of_action_name": "Update Software",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+        "course_of_action_name": "Audit",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba",
+        "course_of_action_name": "User Training",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd",
+        "course_of_action_name": "Multi-factor Authentication",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48",
+        "course_of_action_name": "User Account Management",
+        "shared_technique_ids": [
+          "T0859"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7",
+        "course_of_action_name": "Antivirus/Antimalware",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855723+00:00"
+  },
+  {
+    "assessment_id": "ba5b160e-bb42-5c8d-be23-e0e841580612",
+    "entity_id": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
+    "entity_name": "Dragonfly",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0862",
+      "T0817"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0862",
+        "technique_name": "Supply Chain Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ef615d62-fe85-4740-9c5d-5dddff9b5693",
+        "base_score": 68.0,
+        "severity_level": 2,
+        "warning": null
+      },
+      {
+        "technique_id": "T0817",
+        "technique_name": "Drive-by Compromise",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--042243fd-bfe0-4961-96de-a36232d3ff74",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 2,
+    "frequency": 4,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 68.0,
+    "impact_level": "Hazardous",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+        "course_of_action_name": "Application Isolation and Sandboxing",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--49363b74-d506-4342-bd63-320586ebadb9",
+        "course_of_action_name": "Exploit Protection",
+        "shared_technique_ids": [
+          "T0817"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a",
+        "course_of_action_name": "Code Signing",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e",
+        "course_of_action_name": "Update Software",
+        "shared_technique_ids": [
+          "T0817",
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ac8f3492-7fbb-4a0a-b0b4-b75ec676136c",
+        "course_of_action_name": "Supply Chain Management",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+        "course_of_action_name": "Audit",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037",
+        "course_of_action_name": "Vulnerability Scanning",
+        "shared_technique_ids": [
+          "T0862"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855787+00:00"
+  },
+  {
+    "assessment_id": "a92f3fff-0d75-586f-950e-777fa6a8c84c",
+    "entity_id": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
+    "entity_name": "FIN7",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855829+00:00"
+  },
+  {
+    "assessment_id": "0218200d-6575-5d50-83ac-5d6410afd6af",
+    "entity_id": "intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133",
+    "entity_name": "GOLD SOUTHFIELD",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855853+00:00"
+  },
+  {
+    "assessment_id": "5f91a686-63db-5dbf-89e9-d6b30791f58a",
+    "entity_id": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",
+    "entity_name": "Wizard Spider",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855875+00:00"
+  },
+  {
+    "assessment_id": "70273730-63d8-5e6c-843f-78aa4fb1b3c1",
+    "entity_id": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+    "entity_name": "Lazarus Group",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0865"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--31bf1721-78a2-4b6c-b325-5c44dc02ea33",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 3,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
+        "course_of_action_name": "Network Intrusion Prevention",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba",
+        "course_of_action_name": "User Training",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7",
+        "course_of_action_name": "Antivirus/Antimalware",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855903+00:00"
+  },
+  {
+    "assessment_id": "82f33b00-8080-514a-a929-6b7b1a25ed26",
+    "entity_id": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
+    "entity_name": "APT33",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0853",
+      "T0865",
+      "T0852"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0853",
+        "technique_name": "Scripting",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--739e7b8d-57d7-4c1d-8f42-1496606ea666",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0865",
+        "technique_name": "Spearphishing Attachment",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0f18b876-b698-4f70-aa98-50e8b5a7eae2",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0852",
+        "technique_name": "Screen Capture",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--0beb0088-3bea-4612-b2d9-ff9988f829ae",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 0,
+    "frequency": 2,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea",
+        "course_of_action_name": "Application Isolation and Sandboxing",
+        "shared_technique_ids": [
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144",
+        "course_of_action_name": "Restrict Web-Based Content",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
+        "course_of_action_name": "Network Intrusion Prevention",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433",
+        "course_of_action_name": "Mitigation Limited or Not Effective",
+        "shared_technique_ids": [
+          "T0852"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30",
+        "course_of_action_name": "Execution Prevention",
+        "shared_technique_ids": [
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--d0909119-2f71-4923-87db-b649881672d7",
+        "course_of_action_name": "Disable or Remove Feature or Program",
+        "shared_technique_ids": [
+          "T0853"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba",
+        "course_of_action_name": "User Training",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7",
+        "course_of_action_name": "Antivirus/Antimalware",
+        "shared_technique_ids": [
+          "T0865"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855935+00:00"
+  },
+  {
+    "assessment_id": "94089ed7-4250-5fe1-a8b7-af6281386127",
+    "entity_id": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
+    "entity_name": "APT38",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.855980+00:00"
+  },
+  {
+    "assessment_id": "ea83da1b-7014-5ef0-a02c-f1f1943bc01a",
+    "entity_id": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
+    "entity_name": "APT34",
+    "entity_type": "intrusion-set",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [],
+    "raw_evidence": [],
+    "severity": 0,
+    "frequency": 0,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 0.0,
+    "impact_level": "Not Hazard",
+    "risk_level": "Unknown",
+    "mitigations": [],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": true,
+    "as_of": "2026-09-04T19:09:49.856001+00:00"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "assessment_id": "b8b78094-9b11-58f5-9b5f-cc9ca68b64ba",
+    "entity_id": "campaign--65281d3e-b03c-46b8-8cd8-716363ac3cb2",
+    "entity_name": "Oldsmar Treatment Plant Intrusion",
+    "entity_type": "campaign",
+    "source_framework": "MITRE ATT&CK for ICS",
+    "related_techniques": [
+      "T0836",
+      "T0831",
+      "T0886",
+      "T0823"
+    ],
+    "raw_evidence": [
+      {
+        "technique_id": "T0836",
+        "technique_name": "Modify Parameter",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--2c641542-2e18-4943-849a-7141b7da4fcd",
+        "base_score": 101.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0831",
+        "technique_name": "Manipulation of Control",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--c22acaab-baa4-45b0-9c4b-9330715e5455",
+        "base_score": 83.0,
+        "severity_level": 3,
+        "warning": null
+      },
+      {
+        "technique_id": "T0886",
+        "technique_name": "Remote Services",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--ea218d63-d9de-4f63-804a-cb039d804025",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      },
+      {
+        "technique_id": "T0823",
+        "technique_name": "Graphical User Interface",
+        "source": "MITRE ATT&CK for ICS",
+        "relation_id": "relationship--76654cf3-5cfe-4bf4-b134-806fd75b1ddb",
+        "base_score": 0.0,
+        "severity_level": 0,
+        "warning": null
+      }
+    ],
+    "severity": 3,
+    "frequency": 1,
+    "likelihood": "Unknown",
+    "timeliness": 0,
+    "combined_score": 92.0,
+    "impact_level": "Critical",
+    "risk_level": "Unknown",
+    "mitigations": [
+      {
+        "course_of_action_id": "course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17",
+        "course_of_action_name": "Filter Network Traffic",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291",
+        "course_of_action_name": "Network Segmentation",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3",
+        "course_of_action_name": "Access Management",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433",
+        "course_of_action_name": "Mitigation Limited or Not Effective",
+        "shared_technique_ids": [
+          "T0823"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65",
+        "course_of_action_name": "Password Policies",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0",
+        "course_of_action_name": "Human User Authentication",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549",
+        "course_of_action_name": "Software Process and Device Authentication",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a",
+        "course_of_action_name": "Network Allowlists",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--ad12819e-3211-4291-b360-069f280cff0a",
+        "course_of_action_name": "Data Backup",
+        "shared_technique_ids": [
+          "T0831"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e",
+        "course_of_action_name": "Out-of-Band Communications Channel",
+        "shared_technique_ids": [
+          "T0831"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697",
+        "course_of_action_name": "Audit",
+        "shared_technique_ids": [
+          "T0836"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac",
+        "course_of_action_name": "Communication Authenticity",
+        "shared_technique_ids": [
+          "T0831"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd",
+        "course_of_action_name": "Authorization Enforcement",
+        "shared_technique_ids": [
+          "T0836",
+          "T0886"
+        ]
+      },
+      {
+        "course_of_action_id": "course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48",
+        "course_of_action_name": "User Account Management",
+        "shared_technique_ids": [
+          "T0886"
+        ]
+      }
+    ],
+    "warnings": [],
+    "provenance": {
+      "generated_at": "2026-09-04T19:09:49.775258+00:00",
+      "project_version": "1.0.0",
+      "git_commit": "3fcb2b9d384937661521a72345ab84c358487d11",
+      "python_version": "3.13.5",
+      "os": "Linux 6.6.87.2-microsoft-standard-WSL2",
+      "input_path": "/mnt/c/Users/kumar2_m/CTI-based-risk-assessnent-for-AM/data/raw/ics-attack.json",
+      "input_sha256": "9d71771cb218c76e16a53c1046388758cd11125f9cafc1337a33a6f3a6ba62df",
+      "scoring_config_sha256": "8144e42bcc8801976c9132814b6d747a08c4c2375c4970cd47a566faa3fb80c5",
+      "risk_matrix_config_sha256": "387a62552fb4130664975bc10ccdbdbdbb3117d2a388a33eced115c9bff73969",
+      "assurance_config_sha256": "f8a7a1ef6be4b3371aef80745dd35c92c55b5afa4273114e31f109e35db2b2e1"
+    },
+    "configuration_version": "8144e42bcc88",
+    "data_version": "9d71771cb218",
+    "legacy_validated": false,
+    "as_of": "2026-09-04T19:09:49.850854+00:00"
+  }
+]
